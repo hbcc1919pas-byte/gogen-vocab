@@ -1,0 +1,10 @@
+{
+ "packs": [
+  {
+   "id": "pack001",
+   "name": "パック1",
+   "file": "packs/pack001.json",
+   "count": 100
+  }
+ ]
+}
