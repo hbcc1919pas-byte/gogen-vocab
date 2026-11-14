@@ -93,6 +93,18 @@ def main():
     for w in all_words:
         if w.get("root"):
             roots.setdefault(w["root"], []).append(w["id"])
+    # roots.json（語根の意味）との突き合わせ
+    rpath = DATA / "roots.json"
+    if rpath.exists():
+        meanings = load_json(rpath)
+        for r in roots:
+            if r not in meanings or not meanings[r].get("m"):
+                errors.append(f"roots.json に語根 {r} の意味がありません")
+        for r in meanings:
+            if r not in roots:
+                warns.append(f"roots.json の語根 {r} はどの単語にも使われていません")
+    else:
+        errors.append("data/roots.json がありません")
     print(f"root の種類: {len(roots)}（2語以上でつながるもの: {sum(1 for v in roots.values() if len(v) > 1)}）")
     for m in warns:
         print("警告:", m)
