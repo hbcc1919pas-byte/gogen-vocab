@@ -178,7 +178,7 @@ function viewHome() {
   h += '<p class="count">この条件に合う単語：' + filtered().length + '語</p>';
   var rs = reviewSummary();
   h += '<button class="btn" data-go="review">今日の復習（期限 ' + rs.due + '語・新しい語 ' + rs.fresh + '語）</button>';
-  h += '<button class="btn sub" data-go="card">カードで学ぶ</button><button class="btn sub" data-go="quiz">クイズに挑戦</button><button class="btn sub" data-go="roots">語根でつながる語を見る</button>';
+  h += '<button class="btn sub" data-go="card">カードで学ぶ</button><button class="btn sub" data-go="quiz">クイズに挑戦</button><button class="btn sub" data-go="roots">語根でつながる語を見る</button><button class="btn sub" data-go="help">使い方・新しいパックの追加方法</button>';
   h += '<p class="msg">語源・発音記号・訳は「要確認」の表示のあるものがあります。辞書で確かめてから使ってください。</p>';
   return h;
 }
@@ -419,6 +419,53 @@ function viewRootDetail(key) {
 }
 
 // ---------- 記録 ----------
+// ---------- 使い方 ----------
+function viewHelp() {
+  var packN = PACKS.length, nextN = ('00' + (packN + 1)).slice(-3);
+  var h = '<button class="btn sub sm" data-go="home">← ホームへ</button>';
+  h += '<p class="count">いま：' + ALL.length + '語・' + packN + 'パック・語根 ' + Object.keys(ROOTMAP).length + '種</p>';
+  h += '<h2>1. 画面の使い方</h2>';
+  h += '<details class="panel" open><summary>ホーム（範囲を決める）</summary>' +
+    '<p>パック・分野（聖書／高校／受験／日常）・レベルを選ぶと、カード・クイズ・復習はその範囲だけで動きます。読み上げの速度（ふつう／ゆっくり）もここで選びます。</p></details>';
+  h += '<details class="panel"><summary>カード</summary>' +
+    '<p>表は英語・発音記号（IPA）・🔊。タップすると裏が開き、意味・語源・覚え方・類義語・対義語・関連語・例文が出ます。「覚えた」「苦手」を押すと記録されます（もう一度押すと取り消し）。「この語根の仲間」で、同じ語根の語へ移れます。</p></details>';
+  h += '<details class="panel"><summary>復習（間隔反復）</summary>' +
+    '<p>答えを見たあと、4段階で自己評価します。次に出る日が決まり、忘れそうな頃にまた出ます。</p>' +
+    '<ul><li><b>もう一度</b>：すぐ（同じ回の最後）にもう一度。「苦手」に入ります。</li>' +
+    '<li><b>むずかしい</b>：間隔は伸びにくい。</li>' +
+    '<li><b>ふつう</b>：標準。1日後→3日後→以降は少しずつ延びます。</li>' +
+    '<li><b>かんたん</b>：間隔が大きく延びます。「覚えた」に入ります。</li></ul>' +
+    '<p>新しい語は1日' + NEW_PER_DAY + '語までです。「苦手な語だけ」の復習も選べます。</p></details>';
+  h += '<details class="panel"><summary>クイズ・検索・語根</summary>' +
+    '<p><b>クイズ</b>：4択で最大10問。英→日と日→英。間違えた語は自動で「苦手」に入ります。<br>' +
+    '<b>検索</b>：英語でも日本語でも探せます（全パック）。<br>' +
+    '<b>語根</b>：同じ語根でつながる語を一覧できます。例：clud/clus（閉じる）→ include, exclude, conclusion…</p></details>';
+  h += '<details class="panel"><summary>発音と「要確認」</summary>' +
+    '<p>🔊は端末の読み上げ機能（米音）を使います。英語の音声が入っていない端末では、案内が出ます。<br>' +
+    '「要確認」は、語源・発音記号・訳をまだ辞書で確かめていない印です。覚える前に、必要なら辞書で確認してください。聖書の例文は欽定訳（KJV）の原文です。</p></details>';
+  h += '<details class="panel"><summary>記録のバックアップ・ホーム画面に追加</summary>' +
+    '<p>学習記録（覚えた・苦手・復習予定）は、この端末のブラウザの中にだけ保存されます。「記録」タブの「記録を書き出す」でJSONファイルに保存でき、「読み込む」で戻せます。機種変更の前や、ブラウザのデータを消す前に書き出してください。<br>' +
+    'Chrome のメニューから「ホーム画面に追加」（または「アプリをインストール」）を選ぶと、アプリのように起動でき、オフラインでも使えます。</p></details>';
+  h += '<h2>2. 新しいパックの追加方法</h2>';
+  h += '<div class="panel"><p><b>追加はPCで行います（このアプリの中のボタンではありません）。</b>スマホのアプリは公開データを読んで表示するだけで、単語を作る機能はありません。単語は100語（4分野×25語）ずつ「パック」として足します。学習記録は単語のidで保存されているので、パックを足しても記録は消えません。</p></div>';
+  h += '<details class="panel" open><summary>いちばん簡単な方法：Claude Code に頼む</summary>' +
+    '<p>PCでこのプロジェクトのフォルダ（46_claude_english_vocab）を Claude Code で開き、たとえば次のように頼みます。</p>' +
+    '<pre class="say">パック' + nextN.replace(/^0+/, '') + 'の100語を作って、取り込んで、確認結果を見せて。承認したら公開して。</pre>' +
+    '<p>希望があれば一言添えます（例：「神学用語は救済論を中心に」「受験語は長文でよく出る語を」）。作成・検査・取り込み・確認までを任せ、公開（GitHubへの反映）は、内容を見てから承認します。</p></details>';
+  h += '<details class="panel"><summary>手作業の手順（PCのフォルダで）</summary><ol>' +
+    '<li><code>python tools/make_prompt.py</code> … Claude に貼る依頼文（<code>inbox/次の100語_依頼文.md</code>）ができる。今ある単語と語根の一覧入りなので、重複や表記ゆれを防げる。</li>' +
+    '<li>依頼文を Claude に貼り、出てきたJSONを <code>inbox/</code> に保存する（複数ファイル可）。</li>' +
+    '<li><code>python tools/import_inbox.py</code> … 検査だけ行う。必須項目・id重複・IPA・KJV出典・語根・100語4分野同数などを調べ、問題があれば止まる。</li>' +
+    '<li><code>python tools/import_inbox.py --apply</code> … パックを作り、一覧と語根を更新し、公開用フォルダに同期する。</li>' +
+    '<li><code>python tools/check_words.py</code> … 全体の最終検査。</li>' +
+    '<li><code>git add -A</code> → <code>git commit</code> → <code>git push</code> … 約1〜2分で、このアプリにも反映される。</li></ol>' +
+    '<p>詳しくはフォルダの <code>README.md</code> にもあります。</p></details>';
+  h += '<details class="panel"><summary>人が確かめること</summary>' +
+    '<p>ツールが調べられるのは形式です。内容の正しさは調べられません。</p>' +
+    '<ul><li>KJVの聖句が原文と一字一句合っているか。</li><li>語源・発音記号・訳が辞書と合っているか（確認できたら <code>verified</code> を true にする）。</li></ul>' +
+    '<p>取り込んだ語は、確認が済むまで画面に「要確認」と出ます。</p></details>';
+  return h;
+}
 function barHtml(label, list) {
   var k = 0, wk = 0;
   list.forEach(function (w) { if (progress[w.id] === 'known') k++; else if (progress[w.id] === 'weak') wk++; });
@@ -523,6 +570,7 @@ function render() {
   else if (tab === 'quiz') h = viewQuiz();
   else if (tab === 'review') h = viewReview();
   else if (tab === 'roots') h = viewRoots();
+  else if (tab === 'help') h = viewHelp();
   else if (tab === 'search') h = viewSearch();
   else if (tab === 'record') h = viewRecord();
   var keep = (tab === 'search' && document.activeElement && document.activeElement.id === 'q');
