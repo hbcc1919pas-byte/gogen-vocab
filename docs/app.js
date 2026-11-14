@@ -419,12 +419,46 @@ function viewRootDetail(key) {
 }
 
 // ---------- 記録 ----------
+function barHtml(label, list) {
+  var k = 0, wk = 0;
+  list.forEach(function (w) { if (progress[w.id] === 'known') k++; else if (progress[w.id] === 'weak') wk++; });
+  var t = list.length || 1;
+  return '<div class="prow"><div class="plabel"><span>' + esc(label) + '</span><span>覚えた ' + k + '・苦手 ' + wk + ' / ' + list.length + '語（' + Math.round(k * 100 / t) + '%）</span></div>' +
+    '<div class="bar"><i class="k" style="width:' + (k * 100 / t) + '%"></i><i class="w" style="width:' + (wk * 100 / t) + '%"></i></div></div>';
+}
+function progressHtml() {
+  var h = '<h2>進み具合</h2><div class="panel">';
+  h += barHtml('全体', ALL);
+  h += '<div class="legend"><i class="k"></i>覚えた <i class="w"></i>苦手 <i class="u"></i>未学習</div>';
+  h += '<b class="sub2">分野別</b>';
+  Object.keys(CAT_NAMES).forEach(function (c) {
+    h += barHtml(CAT_NAMES[c], ALL.filter(function (w) { return w.category.indexOf(c) >= 0; }));
+  });
+  if (PACKS.length > 1) {
+    h += '<b class="sub2">パック別</b>';
+    PACKS.forEach(function (p) { h += barHtml(p.name, ALL.filter(function (w) { return w._pack === p.id; })); });
+  }
+  var t = todayStr(), tm = addDays(1), wk = addDays(7), started = 0, due = 0, tomorrow = 0, week = 0;
+  ALL.forEach(function (w) {
+    var s = srs[w.id]; if (!s) return;
+    started++;
+    if (s.due <= t) due++; else if (s.due === tm) tomorrow++; else if (s.due <= wk) week++;
+  });
+  h += '<b class="sub2">復習の予定（間隔反復）</b><div class="statrow">' +
+    '<div><span class="stat">' + started + '</span><small>復習を始めた語</small></div>' +
+    '<div><span class="stat">' + due + '</span><small>今日まで</small></div>' +
+    '<div><span class="stat">' + tomorrow + '</span><small>明日</small></div>' +
+    '<div><span class="stat">' + week + '</span><small>7日以内</small></div></div>';
+  h += '</div>';
+  return h;
+}
 function viewRecord() {
   var known = 0, weak = 0;
   ALL.forEach(function (w) { if (progress[w.id] === 'known') known++; else if (progress[w.id] === 'weak') weak++; });
   var h = '<div class="statrow"><div><span class="stat">' + known + '</span><small>覚えた</small></div>' +
     '<div><span class="stat">' + weak + '</span><small>苦手</small></div>' +
     '<div><span class="stat">' + (ALL.length - known - weak) + '</span><small>未学習</small></div></div>';
+  h += progressHtml();
   h += '<h2>バックアップ</h2><div class="panel"><p class="msg">記録はこの端末のブラウザの中にだけ保存されています。機種変更やブラウザのデータ削除に備えて、ときどき書き出してください。</p>' +
     '<button class="btn sm" data-rec="export">記録を書き出す</button>' +
     '<button class="btn sm sub" data-rec="import">記録を読み込む</button>' +

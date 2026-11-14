@@ -1,0 +1,4831 @@
+[
+ {
+  "id": "sin",
+  "word": "sin",
+  "pos": "名詞",
+  "ipa": "/sɪn/",
+  "meaning": [
+   "罪",
+   "過ち"
+  ],
+  "etymology": "古英語 synn に由来。成り立ちの詳細は要確認",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "wrongdoing",
+    "m": "悪事"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "virtue",
+    "m": "徳"
+   }
+  ],
+  "related": [
+   {
+    "w": "sinner",
+    "m": "罪人"
+   },
+   {
+    "w": "transgression",
+    "m": "違反"
+   }
+  ],
+  "examples": [
+   {
+    "en": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
+    "ja": "罪の報酬は死です。しかし神の賜物は、私たちの主キリスト・イエスにある永遠の命です。",
+    "kjv": true,
+    "ref": "Romans 6:23"
+   },
+   {
+    "en": "He confessed his sin to the priest.",
+    "ja": "彼は司祭に自分の罪を告白しました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "sacrifice",
+  "word": "sacrifice",
+  "pos": "名詞",
+  "ipa": "/ˈsækrəˌfaɪs/",
+  "meaning": [
+   "いけにえ",
+   "犠牲",
+   "ささげ物"
+  ],
+  "etymology": "sacr（聖なる）＋ fic（作る）。「聖なるものにする」",
+  "root": "sacr",
+  "synonyms": [
+   {
+    "w": "offering",
+    "m": "ささげ物"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "sacred",
+    "m": "神聖な"
+   },
+   {
+    "w": "sacrament",
+    "m": "聖礼典"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.",
+    "ja": "兄弟たち、神のあわれみによってあなたがたに勧めます。自分の体を、神に喜ばれる、聖なる生けるいけにえとしてささげなさい。それが、あなたがたのなすべき礼拝です。",
+    "kjv": true,
+    "ref": "Romans 12:1"
+   },
+   {
+    "en": "She made many sacrifices for her children.",
+    "ja": "彼女は子どもたちのために多くを犠牲にしました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "sacred（神聖な）と同じ sacr"
+ },
+ {
+  "id": "bless",
+  "word": "bless",
+  "pos": "動詞",
+  "ipa": "/blɛs/",
+  "meaning": [
+   "祝福する",
+   "恵みを与える"
+  ],
+  "etymology": "古英語 blētsian に由来。成り立ちは諸説あり、要確認",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "consecrate",
+    "m": "聖別する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "curse",
+    "m": "呪う"
+   }
+  ],
+  "related": [
+   {
+    "w": "blessing",
+    "m": "祝福"
+   },
+   {
+    "w": "blessed",
+    "m": "祝福された"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The LORD bless thee, and keep thee:",
+    "ja": "主があなたを祝福し、あなたを守られますように。",
+    "kjv": true,
+    "ref": "Numbers 6:24"
+   },
+   {
+    "en": "God bless you.",
+    "ja": "あなたに神の祝福がありますように。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "glory",
+  "word": "glory",
+  "pos": "名詞",
+  "ipa": "/ˈɡlɔːri/",
+  "meaning": [
+   "栄光",
+   "誉れ"
+  ],
+  "etymology": "ラテン語 gloria（誉れ・栄光）に由来",
+  "root": "glor",
+  "synonyms": [
+   {
+    "w": "honor",
+    "m": "名誉"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "shame",
+    "m": "恥"
+   }
+  ],
+  "related": [
+   {
+    "w": "glorious",
+    "m": "輝かしい"
+   },
+   {
+    "w": "glorify",
+    "m": "栄光を帰す"
+   }
+  ],
+  "examples": [
+   {
+    "en": "For all have sinned, and come short of the glory of God;",
+    "ja": "すべての人は罪を犯して、神の栄光を受けられなくなっています。",
+    "kjv": true,
+    "ref": "Romans 3:23"
+   },
+   {
+    "en": "The team returned home in glory.",
+    "ja": "チームは栄光に包まれて帰ってきました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "holy",
+  "word": "holy",
+  "pos": "形容詞",
+  "ipa": "/ˈhoʊli/",
+  "meaning": [
+   "聖なる",
+   "神聖な"
+  ],
+  "etymology": "古英語 hālig に由来し、whole（完全な）と同系とされる。要確認",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "sacred",
+    "m": "神聖な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "profane",
+    "m": "俗悪な"
+   }
+  ],
+  "related": [
+   {
+    "w": "holiness",
+    "m": "聖さ"
+   },
+   {
+    "w": "holiday",
+    "m": "休日（もとは聖なる日）"
+   }
+  ],
+  "examples": [
+   {
+    "en": "And one cried unto another, and said, Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory.",
+    "ja": "互いに呼び交わして言った。「聖なる、聖なる、聖なるかな、万軍の主。その栄光は全地に満つ。」",
+    "kjv": true,
+    "ref": "Isaiah 6:3"
+   },
+   {
+    "en": "This is a holy place for many people.",
+    "ja": "ここは多くの人にとって神聖な場所です。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "holiday は holy day"
+ },
+ {
+  "id": "worship",
+  "word": "worship",
+  "pos": "名詞",
+  "ipa": "/ˈwɜːrʃɪp/",
+  "meaning": [
+   "礼拝",
+   "崇拝"
+  ],
+  "etymology": "worth（価値）＋ -ship。「価値を認めること」。古英語 weorthscipe",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "adoration",
+    "m": "崇敬"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "worth",
+    "m": "価値"
+   },
+   {
+    "w": "worshipper",
+    "m": "礼拝者"
+   }
+  ],
+  "examples": [
+   {
+    "en": "God is a Spirit: and they that worship him must worship him in spirit and in truth.",
+    "ja": "神は霊です。神を礼拝する者は、霊と真理をもって礼拝しなければなりません。",
+    "kjv": true,
+    "ref": "John 4:24"
+   },
+   {
+    "en": "We go to worship every Sunday.",
+    "ja": "私たちは毎週日曜日に礼拝に行きます。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "worth＋ship。最高の価値を認める"
+ },
+ {
+  "id": "prayer",
+  "word": "prayer",
+  "pos": "名詞",
+  "ipa": "/prɛr/",
+  "meaning": [
+   "祈り",
+   "祈祷"
+  ],
+  "etymology": "ラテン語 precari（祈る）から古フランス語を経由",
+  "root": "prec",
+  "synonyms": [
+   {
+    "w": "supplication",
+    "m": "嘆願"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "pray",
+    "m": "祈る"
+   },
+   {
+    "w": "deprecate",
+    "m": "非難する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
+    "ja": "何も思い煩わず、あらゆる場合に、感謝をもって祈りと願いをささげ、あなたがたの求めを神に知っていただきなさい。",
+    "kjv": true,
+    "ref": "Philippians 4:6"
+   },
+   {
+    "en": "We held a prayer meeting on Wednesday.",
+    "ja": "水曜日に祈祷会を開きました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "発音は /prɛr/（人を指す prayer /ˈpreɪər/ とは別）"
+ },
+ {
+  "id": "hope",
+  "word": "hope",
+  "pos": "名詞",
+  "ipa": "/hoʊp/",
+  "meaning": [
+   "希望",
+   "望み"
+  ],
+  "etymology": "古英語 hopa に由来",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "expectation",
+    "m": "期待"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "despair",
+    "m": "絶望"
+   }
+  ],
+  "related": [
+   {
+    "w": "hopeful",
+    "m": "希望に満ちた"
+   },
+   {
+    "w": "hopeless",
+    "m": "望みのない"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.",
+    "ja": "希望の神が、信仰によるあらゆる喜びと平和をあなたがたに満たし、聖霊の力によって希望に満ちあふれさせてくださいますように。",
+    "kjv": true,
+    "ref": "Romans 15:13"
+   },
+   {
+    "en": "We still have hope.",
+    "ja": "私たちにはまだ希望があります。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "charity",
+  "word": "charity",
+  "pos": "名詞",
+  "ipa": "/ˈtʃærəti/",
+  "meaning": [
+   "愛（KJVでの訳語）",
+   "慈善",
+   "施し"
+  ],
+  "etymology": "ラテン語 caritas（愛・いつくしみ）に由来。car（愛しい）と同系",
+  "root": "car",
+  "synonyms": [
+   {
+    "w": "benevolence",
+    "m": "善意"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "selfishness",
+    "m": "利己心"
+   }
+  ],
+  "related": [
+   {
+    "w": "cherish",
+    "m": "大切にする"
+   },
+   {
+    "w": "charitable",
+    "m": "慈悲深い"
+   }
+  ],
+  "examples": [
+   {
+    "en": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+    "ja": "いつまでも残るのは、信仰と希望と愛、この三つです。その中で最も大いなるものは、愛です。",
+    "kjv": true,
+    "ref": "1 Corinthians 13:13"
+   },
+   {
+    "en": "The money was given to charity.",
+    "ja": "そのお金は慈善団体に寄付されました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "KJVでは「愛（アガペー）」を charity と訳すことが多い"
+ },
+ {
+  "id": "peace",
+  "word": "peace",
+  "pos": "名詞",
+  "ipa": "/piːs/",
+  "meaning": [
+   "平和",
+   "平安"
+  ],
+  "etymology": "ラテン語 pax（平和）から古フランス語を経由。語幹は pac",
+  "root": "pac",
+  "synonyms": [
+   {
+    "w": "harmony",
+    "m": "調和"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "war",
+    "m": "戦争"
+   }
+  ],
+  "related": [
+   {
+    "w": "pacify",
+    "m": "なだめる"
+   },
+   {
+    "w": "pacific",
+    "m": "平和な・太平洋の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+    "ja": "私は平和をあなたがたに残します。私の平和を与えます。私が与えるのは、世が与えるようなものではありません。心を騒がせるな。おびえるな。",
+    "kjv": true,
+    "ref": "John 14:27"
+   },
+   {
+    "en": "We pray for peace in the world.",
+    "ja": "私たちは世界の平和を祈ります。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "Pacific Ocean は「平和な海」"
+ },
+ {
+  "id": "humble",
+  "word": "humble",
+  "pos": "形容詞",
+  "ipa": "/ˈhʌmbəl/",
+  "meaning": [
+   "謙遜な",
+   "へりくだった",
+   "粗末な"
+  ],
+  "etymology": "ラテン語 humilis（低い）← humus（地面）。「地面に近い」",
+  "root": "humus",
+  "synonyms": [
+   {
+    "w": "modest",
+    "m": "控えめな"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "arrogant",
+    "m": "傲慢な"
+   }
+  ],
+  "related": [
+   {
+    "w": "humility",
+    "m": "謙遜"
+   },
+   {
+    "w": "humiliate",
+    "m": "恥をかかせる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Humble yourselves in the sight of the Lord, and he shall lift you up.",
+    "ja": "主の御前でへりくだりなさい。そうすれば、主があなたがたを高めてくださいます。",
+    "kjv": true,
+    "ref": "James 4:10"
+   },
+   {
+    "en": "He is a humble man.",
+    "ja": "彼は謙虚な人です。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "human（人間）とは別語。humus＝土"
+ },
+ {
+  "id": "wisdom",
+  "word": "wisdom",
+  "pos": "名詞",
+  "ipa": "/ˈwɪzdəm/",
+  "meaning": [
+   "知恵",
+   "賢明さ"
+  ],
+  "etymology": "wise（賢い）＋ -dom（状態）。古英語 wīsdōm",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "sagacity",
+    "m": "賢さ"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "folly",
+    "m": "愚かさ"
+   }
+  ],
+  "related": [
+   {
+    "w": "wise",
+    "m": "賢い"
+   },
+   {
+    "w": "kingdom",
+    "m": "王国"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding.",
+    "ja": "主を畏れることは知恵の初め。聖なる方を知ることは悟りである。",
+    "kjv": true,
+    "ref": "Proverbs 9:10"
+   },
+   {
+    "en": "Wisdom comes with age.",
+    "ja": "知恵は年とともに身につきます。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "-dom は kingdom（王の領域）と同じ接尾辞"
+ },
+ {
+  "id": "judge",
+  "word": "judge",
+  "pos": "動詞",
+  "ipa": "/dʒʌdʒ/",
+  "meaning": [
+   "裁く",
+   "判断する",
+   "裁判官"
+  ],
+  "etymology": "ラテン語 judex（jus＝法 ＋ dicere＝言う）。「法を言い渡す人」",
+  "root": "jus",
+  "synonyms": [
+   {
+    "w": "assess",
+    "m": "評価する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "justice",
+    "m": "正義"
+   },
+   {
+    "w": "judgment",
+    "m": "裁き"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Judge not, that ye be not judged.",
+    "ja": "裁くな。あなたがたも裁かれないためである。",
+    "kjv": true,
+    "ref": "Matthew 7:1"
+   },
+   {
+    "en": "Don't judge a book by its cover.",
+    "ja": "本は表紙で判断してはいけません。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "justification（義認）と同じ jus"
+ },
+ {
+  "id": "disciple",
+  "word": "disciple",
+  "pos": "名詞",
+  "ipa": "/dɪˈsaɪpəl/",
+  "meaning": [
+   "弟子",
+   "門人"
+  ],
+  "etymology": "ラテン語 discipulus（学ぶ人）← discere（学ぶ）",
+  "root": "disc",
+  "synonyms": [
+   {
+    "w": "follower",
+    "m": "追随者"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "master",
+    "m": "師"
+   }
+  ],
+  "related": [
+   {
+    "w": "discipline",
+    "m": "訓練・規律"
+   },
+   {
+    "w": "discipleship",
+    "m": "弟子であること"
+   }
+  ],
+  "examples": [
+   {
+    "en": "By this shall all men know that ye are my disciples, if ye have love one to another.",
+    "ja": "互いに愛し合うならば、それによって、あなたがたが私の弟子であることを、皆が知るようになる。",
+    "kjv": true,
+    "ref": "John 13:35"
+   },
+   {
+    "en": "She was a disciple of the famous teacher.",
+    "ja": "彼女はその有名な先生の弟子でした。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "discipline（訓練）の仲間。学ぶ人"
+ },
+ {
+  "id": "baptize",
+  "word": "baptize",
+  "pos": "動詞",
+  "ipa": "/bæpˈtaɪz/",
+  "meaning": [
+   "洗礼を授ける",
+   "バプテスマを施す"
+  ],
+  "etymology": "ギリシア語 baptizein（浸す）に由来",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "immerse",
+    "m": "浸す"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "baptism",
+    "m": "洗礼"
+   },
+   {
+    "w": "Baptist",
+    "m": "バプテスト"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I indeed baptize you with water unto repentance: but he that cometh after me is mightier than I, whose shoes I am not worthy to bear: he shall baptize you with the Holy Ghost, and with fire:",
+    "ja": "私は悔い改めのために、あなたがたに水で洗礼を授けているが、私の後から来る方は私よりも力のある方で、私はその履物をお脱がせする値打ちもない。その方は、聖霊と火であなたがたに洗礼をお授けになる。",
+    "kjv": true,
+    "ref": "Matthew 3:11"
+   },
+   {
+    "en": "The baby was baptized on Sunday.",
+    "ja": "その赤ちゃんは日曜日に洗礼を受けました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "Baptist の語源。「浸す」"
+ },
+ {
+  "id": "congregation",
+  "word": "congregation",
+  "pos": "名詞",
+  "ipa": "/ˌkɑːŋɡrɪˈɡeɪʃən/",
+  "meaning": [
+   "会衆",
+   "集会",
+   "教会員"
+  ],
+  "etymology": "con-（共に）＋ greg（群れ）＋ -ation。「群れとして集まること」",
+  "root": "greg",
+  "synonyms": [
+   {
+    "w": "assembly",
+    "m": "集会"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "gregarious",
+    "m": "群れたがる"
+   },
+   {
+    "w": "segregate",
+    "m": "分離する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will declare thy name unto my brethren: in the midst of the congregation will I praise thee.",
+    "ja": "私は兄弟たちにあなたの御名を語り伝え、会衆の中であなたをほめたたえます。",
+    "kjv": true,
+    "ref": "Psalm 22:22"
+   },
+   {
+    "en": "The congregation sang a hymn.",
+    "ja": "会衆は賛美歌を歌いました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "羊の群れ（grex）のイメージ"
+ },
+ {
+  "id": "praise",
+  "word": "praise",
+  "pos": "動詞",
+  "ipa": "/preɪz/",
+  "meaning": [
+   "ほめたたえる",
+   "賛美する",
+   "称賛"
+  ],
+  "etymology": "古フランス語 preisier（ほめる）に由来し、ラテン語 pretium（価値）と同系とされる。要確認",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "glorify",
+    "m": "栄光を帰す"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "criticize",
+    "m": "批判する"
+   }
+  ],
+  "related": [
+   {
+    "w": "praiseworthy",
+    "m": "称賛に値する"
+   },
+   {
+    "w": "price",
+    "m": "価格"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let every thing that hath breath praise the LORD. Praise ye the LORD.",
+    "ja": "息あるものはみな、主をほめたたえよ。主をほめたたえよ。",
+    "kjv": true,
+    "ref": "Psalm 150:6"
+   },
+   {
+    "en": "The teacher praised her for her effort.",
+    "ja": "先生は彼女の努力をほめました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "「息あるもの（breath）」は spirit の語源「息」と重なる"
+ },
+ {
+  "id": "compassion",
+  "word": "compassion",
+  "pos": "名詞",
+  "ipa": "/kəmˈpæʃən/",
+  "meaning": [
+   "あわれみ",
+   "思いやり"
+  ],
+  "etymology": "com-（共に）＋ pati（苦しむ）＋ -ion。「共に苦しむこと」",
+  "root": "pati",
+  "synonyms": [
+   {
+    "w": "sympathy",
+    "m": "同情"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "indifference",
+    "m": "無関心"
+   }
+  ],
+  "related": [
+   {
+    "w": "patient",
+    "m": "忍耐強い"
+   },
+   {
+    "w": "passion",
+    "m": "情熱・受難"
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is of the LORD'S mercies that we are not consumed, because his compassions fail not.",
+    "ja": "私たちが滅び尽くされないのは、主の慈しみによる。主のあわれみは尽きることがない。",
+    "kjv": true,
+    "ref": "Lamentations 3:22"
+   },
+   {
+    "en": "He showed compassion to the homeless man.",
+    "ja": "彼はホームレスの男性にあわれみを示しました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "共に（com）苦しむ（pati）"
+ },
+ {
+  "id": "fellowship",
+  "word": "fellowship",
+  "pos": "名詞",
+  "ipa": "/ˈfɛloʊˌʃɪp/",
+  "meaning": [
+   "交わり",
+   "仲間意識"
+  ],
+  "etymology": "fellow（仲間。古ノルド語 félagi＝財産を共にする者）＋ -ship",
+  "root": null,
+  "synonyms": [
+   {
+    "w": "communion",
+    "m": "交わり"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "isolation",
+    "m": "孤立"
+   }
+  ],
+  "related": [
+   {
+    "w": "fellow",
+    "m": "仲間"
+   },
+   {
+    "w": "friendship",
+    "m": "友情"
+   }
+  ],
+  "examples": [
+   {
+    "en": "But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.",
+    "ja": "神が光の中におられるように、私たちも光の中を歩むなら、互いに交わりを持ち、御子イエスの血がすべての罪から私たちを清めます。",
+    "kjv": true,
+    "ref": "1 John 1:7"
+   },
+   {
+    "en": "The church hall is used for fellowship after the service.",
+    "ja": "礼拝のあと、教会の広間が交わりの場として使われます。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "create",
+  "word": "create",
+  "pos": "動詞",
+  "ipa": "/kriˈeɪt/",
+  "meaning": [
+   "創造する",
+   "作り出す"
+  ],
+  "etymology": "ラテン語 creare（作り出す）に由来",
+  "root": "cre",
+  "synonyms": [
+   {
+    "w": "make",
+    "m": "作る"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "destroy",
+    "m": "壊す"
+   }
+  ],
+  "related": [
+   {
+    "w": "creation",
+    "m": "創造"
+   },
+   {
+    "w": "creator",
+    "m": "創造主"
+   }
+  ],
+  "examples": [
+   {
+    "en": "In the beginning God created the heaven and the earth.",
+    "ja": "初めに、神は天と地を創造された。",
+    "kjv": true,
+    "ref": "Genesis 1:1"
+   },
+   {
+    "en": "She likes to create new recipes.",
+    "ja": "彼女は新しいレシピを作るのが好きです。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "commandment",
+  "word": "commandment",
+  "pos": "名詞",
+  "ipa": "/kəˈmændmənt/",
+  "meaning": [
+   "戒め",
+   "戒律"
+  ],
+  "etymology": "com-（強く）＋ mand（命じる）＋ -ment",
+  "root": "mand",
+  "synonyms": [
+   {
+    "w": "precept",
+    "m": "教え"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "command",
+    "m": "命令する"
+   },
+   {
+    "w": "demand",
+    "m": "要求する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.",
+    "ja": "あなたがたに新しい戒めを与える。互いに愛し合いなさい。私があなたがたを愛したように、あなたがたも互いに愛し合いなさい。",
+    "kjv": true,
+    "ref": "John 13:34"
+   },
+   {
+    "en": "The Ten Commandments are well known.",
+    "ja": "十戒はよく知られています。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "inherit",
+  "word": "inherit",
+  "pos": "動詞",
+  "ipa": "/ɪnˈhɛrɪt/",
+  "meaning": [
+   "相続する",
+   "受け継ぐ"
+  ],
+  "etymology": "in-（中に）＋ hered（相続人）。「相続人にする」",
+  "root": "hered",
+  "synonyms": [
+   {
+    "w": "succeed to",
+    "m": "継ぐ"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "bequeath",
+    "m": "遺贈する"
+   }
+  ],
+  "related": [
+   {
+    "w": "inheritance",
+    "m": "相続財産・受け継ぐもの"
+   },
+   {
+    "w": "heredity",
+    "m": "遺伝"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Blessed are the meek: for they shall inherit the earth.",
+    "ja": "柔和な人々は、幸いである。その人たちは地を受け継ぐ。",
+    "kjv": true,
+    "ref": "Matthew 5:5"
+   },
+   {
+    "en": "She inherited her mother's blue eyes.",
+    "ja": "彼女は母親の青い目を受け継ぎました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "omnipotent",
+  "word": "omnipotent",
+  "pos": "形容詞",
+  "ipa": "/ɑːmˈnɪpətənt/",
+  "meaning": [
+   "全能の"
+  ],
+  "etymology": "omni-（すべて）＋ pot（力がある）＋ -ent",
+  "root": "pot",
+  "synonyms": [
+   {
+    "w": "almighty",
+    "m": "全能の"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "powerless",
+    "m": "無力な"
+   }
+  ],
+  "related": [
+   {
+    "w": "potent",
+    "m": "強力な"
+   },
+   {
+    "w": "potential",
+    "m": "潜在的な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth.",
+    "ja": "私は、大群衆の声、大水のとどろき、激しい雷鳴のようなものが、こう言うのを聞いた。「ハレルヤ。全能者である神、主が王となられた。」",
+    "kjv": true,
+    "ref": "Revelation 19:6"
+   },
+   {
+    "en": "No one is omnipotent.",
+    "ja": "誰も全能ではありません。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "eternity",
+  "word": "eternity",
+  "pos": "名詞",
+  "ipa": "/ɪˈtɜːrnəti/",
+  "meaning": [
+   "永遠",
+   "永劫"
+  ],
+  "etymology": "ラテン語 aeternus（永遠の）← aevum（時代・年月）＋ -ity",
+  "root": "aev",
+  "synonyms": [
+   {
+    "w": "perpetuity",
+    "m": "永続"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "moment",
+    "m": "一瞬"
+   }
+  ],
+  "related": [
+   {
+    "w": "eternal",
+    "m": "永遠の"
+   },
+   {
+    "w": "medieval",
+    "m": "中世の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy;",
+    "ja": "高く上げられた者、永遠に住まう者、聖なる御名をもつ方がこう言われる。",
+    "kjv": true,
+    "ref": "Isaiah 57:15"
+   },
+   {
+    "en": "The wait felt like an eternity.",
+    "ja": "待つ時間は永遠のように感じられました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "medieval（中世の）は medi（中間）＋ aev（時代）"
+ },
+ {
+  "id": "inspiration",
+  "word": "inspiration",
+  "pos": "名詞",
+  "ipa": "/ˌɪnspəˈreɪʃən/",
+  "meaning": [
+   "霊感",
+   "ひらめき",
+   "（聖書の）霊感"
+  ],
+  "etymology": "in-（中に）＋ spir（息）＋ -ation。「息を吹き込むこと」",
+  "root": "spir",
+  "synonyms": [
+   {
+    "w": "revelation",
+    "m": "啓示"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "inspire",
+    "m": "奮い立たせる"
+   },
+   {
+    "w": "spirit",
+    "m": "霊"
+   }
+  ],
+  "examples": [
+   {
+    "en": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness:",
+    "ja": "聖書はすべて神の霊感によって書かれ、教えと戒めと矯正と義の訓練とに有益です。",
+    "kjv": true,
+    "ref": "2 Timothy 3:16"
+   },
+   {
+    "en": "The view gave her inspiration for a poem.",
+    "ja": "その景色が彼女に詩のひらめきを与えました。"
+   }
+  ],
+  "category": [
+   "bible"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "神が息を吹き込む（神の息）"
+ },
+ {
+  "id": "television",
+  "word": "television",
+  "pos": "名詞",
+  "ipa": "/ˈtɛləˌvɪʒən/",
+  "meaning": [
+   "テレビ",
+   "テレビ放送"
+  ],
+  "etymology": "tele-（遠く）＋ vision（見ること）。「遠くを見る」",
+  "root": "vis/vid",
+  "synonyms": [
+   {
+    "w": "TV",
+    "m": "テレビ"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "vision",
+    "m": "視力"
+   },
+   {
+    "w": "telephone",
+    "m": "電話（遠くの声）"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We watched television after dinner.",
+    "ja": "夕食のあと、テレビを見ました。"
+   },
+   {
+    "en": "The television is too loud.",
+    "ja": "テレビの音が大きすぎます。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "tele＝遠く（telephone, telescope も）"
+ },
+ {
+  "id": "revise",
+  "word": "revise",
+  "pos": "動詞",
+  "ipa": "/rɪˈvaɪz/",
+  "meaning": [
+   "見直す",
+   "改訂する"
+  ],
+  "etymology": "re-（再び）＋ vis（見る）。「もう一度見る」",
+  "root": "vis/vid",
+  "synonyms": [
+   {
+    "w": "amend",
+    "m": "修正する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "revision",
+    "m": "改訂"
+   },
+   {
+    "w": "visible",
+    "m": "目に見える"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I revised my essay.",
+    "ja": "私は作文を見直して直しました。"
+   },
+   {
+    "en": "The plan was revised.",
+    "ja": "計画は修正されました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "evidence",
+  "word": "evidence",
+  "pos": "名詞",
+  "ipa": "/ˈɛvɪdəns/",
+  "meaning": [
+   "証拠",
+   "根拠"
+  ],
+  "etymology": "e-（外に）＋ vid（見る）＋ -ence。「はっきり見えるもの」",
+  "root": "vis/vid",
+  "synonyms": [
+   {
+    "w": "proof",
+    "m": "証拠"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "evident",
+    "m": "明らかな"
+   },
+   {
+    "w": "video",
+    "m": "動画"
+   }
+  ],
+  "examples": [
+   {
+    "en": "There is no evidence.",
+    "ja": "証拠はありません。"
+   },
+   {
+    "en": "The police found new evidence.",
+    "ja": "警察は新しい証拠を見つけました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "auditorium",
+  "word": "auditorium",
+  "pos": "名詞",
+  "ipa": "/ˌɔːdɪˈtɔːriəm/",
+  "meaning": [
+   "講堂",
+   "公会堂"
+  ],
+  "etymology": "ラテン語 audire（聞く）に由来する語。「聞く場所」",
+  "root": "aud",
+  "synonyms": [
+   {
+    "w": "hall",
+    "m": "ホール"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "audience",
+    "m": "聴衆"
+   },
+   {
+    "w": "audio",
+    "m": "音声の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ceremony was held in the auditorium.",
+    "ja": "式は講堂で行われました。"
+   },
+   {
+    "en": "The auditorium seats 500 people.",
+    "ja": "その講堂は500人が座れます。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "command",
+  "word": "command",
+  "pos": "動詞",
+  "ipa": "/kəˈmænd/",
+  "meaning": [
+   "命令する",
+   "指揮する"
+  ],
+  "etymology": "com-（強く）＋ mand（命じる・ゆだねる）",
+  "root": "mand",
+  "synonyms": [
+   {
+    "w": "order",
+    "m": "命じる"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "obey",
+    "m": "従う"
+   }
+  ],
+  "related": [
+   {
+    "w": "commandment",
+    "m": "戒め"
+   },
+   {
+    "w": "demand",
+    "m": "要求する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The captain commanded the soldiers to stop.",
+    "ja": "隊長は兵士たちに止まるよう命じました。"
+   },
+   {
+    "en": "She has a good command of English.",
+    "ja": "彼女は英語を自在に使いこなします。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "demand",
+  "word": "demand",
+  "pos": "動詞",
+  "ipa": "/dɪˈmænd/",
+  "meaning": [
+   "要求する",
+   "需要"
+  ],
+  "etymology": "de-（強く）＋ mand（命じる）",
+  "root": "mand",
+  "synonyms": [
+   {
+    "w": "require",
+    "m": "要求する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "supply",
+    "m": "供給"
+   }
+  ],
+  "related": [
+   {
+    "w": "command",
+    "m": "命令する"
+   },
+   {
+    "w": "mandatory",
+    "m": "義務的な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The workers demanded higher pay.",
+    "ja": "労働者は賃上げを要求しました。"
+   },
+   {
+    "en": "There is a high demand for masks.",
+    "ja": "マスクの需要が高いです。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "creative",
+  "word": "creative",
+  "pos": "形容詞",
+  "ipa": "/kriˈeɪtɪv/",
+  "meaning": [
+   "創造的な",
+   "独創的な"
+  ],
+  "etymology": "cre（作る）＋ -ative",
+  "root": "cre",
+  "synonyms": [
+   {
+    "w": "original",
+    "m": "独創的な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "ordinary",
+    "m": "ありふれた"
+   }
+  ],
+  "related": [
+   {
+    "w": "create",
+    "m": "創造する"
+   },
+   {
+    "w": "creativity",
+    "m": "創造性"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is a creative person.",
+    "ja": "彼女は創造力のある人です。"
+   },
+   {
+    "en": "We need a creative solution.",
+    "ja": "独創的な解決策が必要です。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "creature",
+  "word": "creature",
+  "pos": "名詞",
+  "ipa": "/ˈkriːtʃər/",
+  "meaning": [
+   "生き物",
+   "被造物"
+  ],
+  "etymology": "cre（作る）＋ -ture。「造られたもの」",
+  "root": "cre",
+  "synonyms": [
+   {
+    "w": "animal",
+    "m": "動物"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "create",
+    "m": "創造する"
+   },
+   {
+    "w": "creation",
+    "m": "創造"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sea is full of strange creatures.",
+    "ja": "海は不思議な生き物でいっぱいです。"
+   },
+   {
+    "en": "All living creatures need water.",
+    "ja": "すべての生き物は水を必要とします。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "神が造られたもの＝被造物"
+ },
+ {
+  "id": "recreation",
+  "word": "recreation",
+  "pos": "名詞",
+  "ipa": "/ˌrɛkriˈeɪʃən/",
+  "meaning": [
+   "気晴らし",
+   "娯楽",
+   "レクリエーション"
+  ],
+  "etymology": "re-（再び）＋ cre（作る）＋ -ation。「元気を作り直すこと」",
+  "root": "cre",
+  "synonyms": [
+   {
+    "w": "leisure",
+    "m": "余暇"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "work",
+    "m": "仕事"
+   }
+  ],
+  "related": [
+   {
+    "w": "create",
+    "m": "創造する"
+   },
+   {
+    "w": "recreate",
+    "m": "再現する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Fishing is my favorite recreation.",
+    "ja": "釣りは私の大好きな気晴らしです。"
+   },
+   {
+    "en": "The park offers recreation for all ages.",
+    "ja": "その公園はあらゆる年齢向けの娯楽を提供しています。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "special",
+  "word": "special",
+  "pos": "形容詞",
+  "ipa": "/ˈspɛʃəl/",
+  "meaning": [
+   "特別な",
+   "専門の"
+  ],
+  "etymology": "ラテン語 specialis（種類に属する）← species（種類・外見）← spec（見る）",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "particular",
+    "m": "特定の"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "ordinary",
+    "m": "普通の"
+   }
+  ],
+  "related": [
+   {
+    "w": "species",
+    "m": "種"
+   },
+   {
+    "w": "specific",
+    "m": "具体的な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Today is a special day.",
+    "ja": "今日は特別な日です。"
+   },
+   {
+    "en": "Do you have a special request?",
+    "ja": "何か特別なご要望はありますか。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "specific",
+  "word": "specific",
+  "pos": "形容詞",
+  "ipa": "/spəˈsɪfɪk/",
+  "meaning": [
+   "具体的な",
+   "特定の"
+  ],
+  "etymology": "species（種類）＋ fic（作る）。「種類を決める」",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "definite",
+    "m": "明確な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "general",
+    "m": "一般的な"
+   }
+  ],
+  "related": [
+   {
+    "w": "special",
+    "m": "特別な"
+   },
+   {
+    "w": "specify",
+    "m": "明記する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you be more specific?",
+    "ja": "もっと具体的に言ってもらえますか。"
+   },
+   {
+    "en": "This tool has a specific purpose.",
+    "ja": "この道具には特定の用途があります。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "relocate",
+  "word": "relocate",
+  "pos": "動詞",
+  "ipa": "/ˌriːˈloʊkeɪt/",
+  "meaning": [
+   "移転する",
+   "引っ越す"
+  ],
+  "etymology": "re-（再び）＋ loc（場所）＋ -ate。「場所を移す」",
+  "root": "loc",
+  "synonyms": [
+   {
+    "w": "move",
+    "m": "引っ越す"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "location",
+    "m": "場所"
+   },
+   {
+    "w": "local",
+    "m": "地元の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company relocated to Osaka.",
+    "ja": "その会社は大阪へ移転しました。"
+   },
+   {
+    "en": "We plan to relocate next year.",
+    "ja": "私たちは来年引っ越す予定です。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "allocate",
+  "word": "allocate",
+  "pos": "動詞",
+  "ipa": "/ˈæləˌkeɪt/",
+  "meaning": [
+   "割り当てる",
+   "配分する"
+  ],
+  "etymology": "al-（ad-、〜へ）＋ loc（場所）＋ -ate。「場所を割り当てる」",
+  "root": "loc",
+  "synonyms": [
+   {
+    "w": "assign",
+    "m": "割り当てる"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "allocation",
+    "m": "配分"
+   },
+   {
+    "w": "locate",
+    "m": "位置を定める"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They allocated funds for the project.",
+    "ja": "彼らは計画のために資金を割り当てました。"
+   },
+   {
+    "en": "Time was allocated to each speaker.",
+    "ja": "各話者に時間が割り当てられました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "vocabulary",
+  "word": "vocabulary",
+  "pos": "名詞",
+  "ipa": "/voʊˈkæbjəˌlɛri/",
+  "meaning": [
+   "語彙",
+   "単語集"
+  ],
+  "etymology": "ラテン語 vocabulum（名称）← voc（声・呼ぶ）",
+  "root": "voc",
+  "synonyms": [
+   {
+    "w": "word stock",
+    "m": "語彙"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "vocal",
+    "m": "声の"
+   },
+   {
+    "w": "voice",
+    "m": "声"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I want to build my English vocabulary.",
+    "ja": "私は英語の語彙を増やしたいです。"
+   },
+   {
+    "en": "This book has a rich vocabulary.",
+    "ja": "この本は語彙が豊かです。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "このアプリの目的そのもの"
+ },
+ {
+  "id": "advocate",
+  "word": "advocate",
+  "pos": "動詞",
+  "ipa": "/ˈædvəˌkeɪt/",
+  "meaning": [
+   "擁護する",
+   "提唱する"
+  ],
+  "etymology": "ad-（〜へ）＋ voc（呼ぶ）＋ -ate。「呼び寄せて助ける」",
+  "root": "voc",
+  "synonyms": [
+   {
+    "w": "support",
+    "m": "支持する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "oppose",
+    "m": "反対する"
+   }
+  ],
+  "related": [
+   {
+    "w": "advocacy",
+    "m": "擁護"
+   },
+   {
+    "w": "vocal",
+    "m": "声の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She advocates equal rights.",
+    "ja": "彼女は平等な権利を訴えています。"
+   },
+   {
+    "en": "Many people advocate this plan.",
+    "ja": "多くの人がこの計画を支持しています。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "vacant",
+  "word": "vacant",
+  "pos": "形容詞",
+  "ipa": "/ˈveɪkənt/",
+  "meaning": [
+   "空いている",
+   "ぼんやりした"
+  ],
+  "etymology": "ラテン語 vacare（空である）に由来。vac（空）＋ -ant",
+  "root": "vac",
+  "synonyms": [
+   {
+    "w": "empty",
+    "m": "空の"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "occupied",
+    "m": "使用中の"
+   }
+  ],
+  "related": [
+   {
+    "w": "vacation",
+    "m": "休暇"
+   },
+   {
+    "w": "vacancy",
+    "m": "空き"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Is this seat vacant?",
+    "ja": "この席は空いていますか。"
+   },
+   {
+    "en": "He gave me a vacant look.",
+    "ja": "彼はぼんやりした顔で私を見ました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "evacuate",
+  "word": "evacuate",
+  "pos": "動詞",
+  "ipa": "/ɪˈvækjuˌeɪt/",
+  "meaning": [
+   "避難させる",
+   "立ちのく"
+  ],
+  "etymology": "e-（外に）＋ vac（空）＋ -ate。「中を空にする」",
+  "root": "vac",
+  "synonyms": [
+   {
+    "w": "clear",
+    "m": "空にする"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "evacuation",
+    "m": "避難"
+   },
+   {
+    "w": "vacant",
+    "m": "空いた"
+   }
+  ],
+  "examples": [
+   {
+    "en": "People were evacuated from the area.",
+    "ja": "人々はその地域から避難させられました。"
+   },
+   {
+    "en": "We evacuated the building.",
+    "ja": "私たちは建物から退避しました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "reaction",
+  "word": "reaction",
+  "pos": "名詞",
+  "ipa": "/riˈækʃən/",
+  "meaning": [
+   "反応",
+   "反動"
+  ],
+  "etymology": "re-（反対に・再び）＋ act（行う）＋ -ion",
+  "root": "ag/act",
+  "synonyms": [
+   {
+    "w": "response",
+    "m": "応答"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "action",
+    "m": "行動"
+   }
+  ],
+  "related": [
+   {
+    "w": "react",
+    "m": "反応する"
+   },
+   {
+    "w": "interact",
+    "m": "交流する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "What was her reaction?",
+    "ja": "彼女の反応はどうでしたか。"
+   },
+   {
+    "en": "I had a bad reaction to the medicine.",
+    "ja": "その薬で悪い反応が出ました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "exactly",
+  "word": "exactly",
+  "pos": "副詞",
+  "ipa": "/ɪɡˈzæktli/",
+  "meaning": [
+   "正確に",
+   "まさに"
+  ],
+  "etymology": "exact（正確な）＋ -ly。exact はラテン語 exigere（量る・要求する）に由来",
+  "root": "ag/act",
+  "synonyms": [
+   {
+    "w": "precisely",
+    "m": "正確に"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "roughly",
+    "m": "おおよそ"
+   }
+  ],
+  "related": [
+   {
+    "w": "exact",
+    "m": "正確な"
+   },
+   {
+    "w": "active",
+    "m": "活動的な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "That is exactly what I meant.",
+    "ja": "それがまさに私の言いたかったことです。"
+   },
+   {
+    "en": "It is exactly three o'clock.",
+    "ja": "ちょうど3時です。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "expire",
+  "word": "expire",
+  "pos": "動詞",
+  "ipa": "/ɪkˈspaɪər/",
+  "meaning": [
+   "期限が切れる",
+   "息を引き取る"
+  ],
+  "etymology": "ex-（外に）＋ spir（息）。「息を吐き切る」",
+  "root": "spir",
+  "synonyms": [
+   {
+    "w": "run out",
+    "m": "尽きる"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "expiration",
+    "m": "満期"
+   },
+   {
+    "w": "spirit",
+    "m": "精神"
+   }
+  ],
+  "examples": [
+   {
+    "en": "My passport expires next month.",
+    "ja": "私のパスポートは来月期限が切れます。"
+   },
+   {
+    "en": "The offer has expired.",
+    "ja": "その申し出は期限が切れました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "inspire（息を吹き込む）の反対は expire（息を吐く）"
+ },
+ {
+  "id": "equator",
+  "word": "equator",
+  "pos": "名詞",
+  "ipa": "/ɪˈkweɪtər/",
+  "meaning": [
+   "赤道"
+  ],
+  "etymology": "equ（等しい）＋ -ator。「（昼夜を）等しくするもの」",
+  "root": "equ",
+  "synonyms": [],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "equal",
+    "m": "等しい"
+   },
+   {
+    "w": "equation",
+    "m": "方程式"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The equator divides the earth in two.",
+    "ja": "赤道は地球を2つに分けます。"
+   },
+   {
+    "en": "It is hot near the equator.",
+    "ja": "赤道の近くは暑いです。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "adequate",
+  "word": "adequate",
+  "pos": "形容詞",
+  "ipa": "/ˈædɪkwɪt/",
+  "meaning": [
+   "十分な",
+   "適切な"
+  ],
+  "etymology": "ad-（〜へ）＋ equ（等しい）＋ -ate。「ちょうど釣り合う」",
+  "root": "equ",
+  "synonyms": [
+   {
+    "w": "sufficient",
+    "m": "十分な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "inadequate",
+    "m": "不十分な"
+   }
+  ],
+  "related": [
+   {
+    "w": "equal",
+    "m": "等しい"
+   },
+   {
+    "w": "iniquity",
+    "m": "不義"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We have adequate food for everyone.",
+    "ja": "全員に十分な食べ物があります。"
+   },
+   {
+    "en": "His salary is adequate.",
+    "ja": "彼の給料は十分です。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "commerce",
+  "word": "commerce",
+  "pos": "名詞",
+  "ipa": "/ˈkɑːmərs/",
+  "meaning": [
+   "商業",
+   "通商"
+  ],
+  "etymology": "com-（共に）＋ merc（代価・商い）。「共に売り買いすること」",
+  "root": "merc",
+  "synonyms": [
+   {
+    "w": "trade",
+    "m": "取引"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "merchant",
+    "m": "商人"
+   },
+   {
+    "w": "mercy",
+    "m": "慈悲"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The city is a center of commerce.",
+    "ja": "その都市は商業の中心です。"
+   },
+   {
+    "en": "E-commerce has grown rapidly.",
+    "ja": "電子商取引は急成長しました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "public",
+  "word": "public",
+  "pos": "形容詞",
+  "ipa": "/ˈpʌblɪk/",
+  "meaning": [
+   "公共の",
+   "一般の"
+  ],
+  "etymology": "ラテン語 publicus（人々の）← populus（人々）に由来",
+  "root": "popul",
+  "synonyms": [
+   {
+    "w": "communal",
+    "m": "共同の"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "private",
+    "m": "私的な"
+   }
+  ],
+  "related": [
+   {
+    "w": "popular",
+    "m": "人気のある"
+   },
+   {
+    "w": "population",
+    "m": "人口"
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is a public library.",
+    "ja": "ここは公共の図書館です。"
+   },
+   {
+    "en": "The news became public.",
+    "ja": "そのニュースは公になりました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "accompany",
+  "word": "accompany",
+  "pos": "動詞",
+  "ipa": "/əˈkʌmpəni/",
+  "meaning": [
+   "同行する",
+   "伴奏する"
+  ],
+  "etymology": "ac-（ad-、〜へ）＋ company（仲間）。company は com-（共に）＋ pan（パン）とされる",
+  "root": "pan",
+  "synonyms": [
+   {
+    "w": "escort",
+    "m": "付き添う"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "abandon",
+    "m": "見捨てる"
+   }
+  ],
+  "related": [
+   {
+    "w": "company",
+    "m": "会社・仲間"
+   },
+   {
+    "w": "companion",
+    "m": "仲間"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will accompany you to the station.",
+    "ja": "駅までご一緒します。"
+   },
+   {
+    "en": "She accompanied him on the piano.",
+    "ja": "彼女はピアノで彼の伴奏をしました。"
+   }
+  ],
+  "category": [
+   "daily"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "company（パンを分け合う仲間）の仲間"
+ },
+ {
+  "id": "intermittent",
+  "word": "intermittent",
+  "pos": "形容詞",
+  "ipa": "/ˌɪntərˈmɪtənt/",
+  "meaning": [
+   "断続的な",
+   "間欠的な"
+  ],
+  "etymology": "inter-（間に）＋ mit（送る・放つ）＋ -ent。「間を置いては出る」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "occasional",
+    "m": "時折の"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "continuous",
+    "m": "連続的な"
+   }
+  ],
+  "related": [
+   {
+    "w": "intermission",
+    "m": "休憩"
+   },
+   {
+    "w": "submit",
+    "m": "提出する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was intermittent rain all day.",
+    "ja": "一日中、雨が降ったりやんだりしました。"
+   },
+   {
+    "en": "The signal is intermittent.",
+    "ja": "信号が途切れ途切れです。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "emit",
+  "word": "emit",
+  "pos": "動詞",
+  "ipa": "/ɪˈmɪt/",
+  "meaning": [
+   "放出する",
+   "発する"
+  ],
+  "etymology": "e-（外に）＋ mit（送る）",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "discharge",
+    "m": "排出する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "absorb",
+    "m": "吸収する"
+   }
+  ],
+  "related": [
+   {
+    "w": "emission",
+    "m": "排出"
+   },
+   {
+    "w": "transmit",
+    "m": "送信する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Cars emit exhaust gas.",
+    "ja": "車は排気ガスを出します。"
+   },
+   {
+    "en": "The lamp emits a soft light.",
+    "ja": "そのランプはやわらかい光を放ちます。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "compromise",
+  "word": "compromise",
+  "pos": "名詞",
+  "ipa": "/ˈkɑːmprəˌmaɪz/",
+  "meaning": [
+   "妥協",
+   "歩み寄り"
+  ],
+  "etymology": "com-（共に）＋ promise（約束）。ラテン語 promittere（前に送る＝約束する）に由来",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "concession",
+    "m": "譲歩"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "promise",
+    "m": "約束"
+   },
+   {
+    "w": "mission",
+    "m": "使命"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We reached a compromise.",
+    "ja": "私たちは妥協点に達しました。"
+   },
+   {
+    "en": "Both sides had to compromise.",
+    "ja": "双方が歩み寄らなければなりませんでした。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "dismiss",
+  "word": "dismiss",
+  "pos": "動詞",
+  "ipa": "/dɪsˈmɪs/",
+  "meaning": [
+   "解雇する",
+   "退ける",
+   "解散させる"
+  ],
+  "etymology": "dis-（離れて）＋ miss（送る）。「送り出す」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "fire",
+    "m": "解雇する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "hire",
+    "m": "雇う"
+   }
+  ],
+  "related": [
+   {
+    "w": "dismissal",
+    "m": "解雇"
+   },
+   {
+    "w": "mission",
+    "m": "使命"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher dismissed the class.",
+    "ja": "先生は授業を終わりにしました。"
+   },
+   {
+    "en": "He dismissed the idea.",
+    "ja": "彼はその考えを退けました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "prospect",
+  "word": "prospect",
+  "pos": "名詞",
+  "ipa": "/ˈprɑːspɛkt/",
+  "meaning": [
+   "見込み",
+   "展望"
+  ],
+  "etymology": "pro-（前へ）＋ spect（見る）。「前方を見渡すこと」",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "outlook",
+    "m": "見通し"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "retrospect",
+    "m": "回顧"
+   }
+  ],
+  "related": [
+   {
+    "w": "prospective",
+    "m": "見込みのある"
+   },
+   {
+    "w": "perspective",
+    "m": "視点"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The prospects for the economy are good.",
+    "ja": "経済の見通しは明るいです。"
+   },
+   {
+    "en": "There is little prospect of success.",
+    "ja": "成功の見込みはほとんどありません。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "retrospect",
+  "word": "retrospect",
+  "pos": "名詞",
+  "ipa": "/ˈrɛtrəˌspɛkt/",
+  "meaning": [
+   "回顧",
+   "振り返り"
+  ],
+  "etymology": "retro-（後ろへ）＋ spect（見る）",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "hindsight",
+    "m": "後知恵"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "prospect",
+    "m": "展望"
+   }
+  ],
+  "related": [
+   {
+    "w": "retrospective",
+    "m": "回顧的な"
+   },
+   {
+    "w": "inspect",
+    "m": "検査する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "In retrospect, it was a mistake.",
+    "ja": "振り返ってみると、それは間違いでした。"
+   },
+   {
+    "en": "Retrospect helps us learn.",
+    "ja": "振り返ることで私たちは学べます。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "in retrospect＝振り返ってみると"
+ },
+ {
+  "id": "speculate",
+  "word": "speculate",
+  "pos": "動詞",
+  "ipa": "/ˈspɛkjəˌleɪt/",
+  "meaning": [
+   "推測する",
+   "投機する"
+  ],
+  "etymology": "ラテン語 speculari（見張る・観察する）← spec（見る）",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "guess",
+    "m": "推測する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "speculation",
+    "m": "推測"
+   },
+   {
+    "w": "spectator",
+    "m": "観客"
+   }
+  ],
+  "examples": [
+   {
+    "en": "People speculate about the cause.",
+    "ja": "人々は原因を推測しています。"
+   },
+   {
+    "en": "It is useless to speculate.",
+    "ja": "あれこれ推測しても無駄です。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "conspicuous",
+  "word": "conspicuous",
+  "pos": "形容詞",
+  "ipa": "/kənˈspɪkjuəs/",
+  "meaning": [
+   "目立つ",
+   "際立った"
+  ],
+  "etymology": "con-（完全に）＋ spic（spec、見る）＋ -uous。「はっきり見える」",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "noticeable",
+    "m": "目立つ"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "inconspicuous",
+    "m": "目立たない"
+   }
+  ],
+  "related": [
+   {
+    "w": "spectacle",
+    "m": "光景"
+   },
+   {
+    "w": "suspect",
+    "m": "疑う"
+   }
+  ],
+  "examples": [
+   {
+    "en": "His red hat was conspicuous.",
+    "ja": "彼の赤い帽子は目立ちました。"
+   },
+   {
+    "en": "She was conspicuous by her absence.",
+    "ja": "彼女は不在でかえって目立ちました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "defer",
+  "word": "defer",
+  "pos": "動詞",
+  "ipa": "/dɪˈfɜːr/",
+  "meaning": [
+   "延期する",
+   "従う"
+  ],
+  "etymology": "fer（運ぶ）を含む。「延期する」と「従う」は由来が異なり（dis- / de-）、詳細は要確認",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "postpone",
+    "m": "延期する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "deference",
+    "m": "敬意"
+   },
+   {
+    "w": "transfer",
+    "m": "移す"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We deferred the meeting until Monday.",
+    "ja": "会議を月曜日まで延期しました。"
+   },
+   {
+    "en": "I defer to your judgment.",
+    "ja": "あなたの判断に従います。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "infer",
+  "word": "infer",
+  "pos": "動詞",
+  "ipa": "/ɪnˈfɜːr/",
+  "meaning": [
+   "推論する",
+   "推察する"
+  ],
+  "etymology": "in-（中に）＋ fer（運ぶ）。「結論を運び込む」",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "deduce",
+    "m": "推論する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "inference",
+    "m": "推論"
+   },
+   {
+    "w": "refer",
+    "m": "言及する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We can infer his age from his voice.",
+    "ja": "声から彼の年齢が推測できます。"
+   },
+   {
+    "en": "What do you infer from this?",
+    "ja": "これから何がわかりますか。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "confer",
+  "word": "confer",
+  "pos": "動詞",
+  "ipa": "/kənˈfɜːr/",
+  "meaning": [
+   "協議する",
+   "授与する"
+  ],
+  "etymology": "con-（共に）＋ fer（運ぶ）。「持ち寄る」",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "consult",
+    "m": "相談する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "conference",
+    "m": "会議"
+   },
+   {
+    "w": "prefer",
+    "m": "好む"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The leaders conferred for an hour.",
+    "ja": "指導者たちは1時間協議しました。"
+   },
+   {
+    "en": "The university conferred a degree on him.",
+    "ja": "大学は彼に学位を授与しました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "mandatory",
+  "word": "mandatory",
+  "pos": "形容詞",
+  "ipa": "/ˈmændəˌtɔːri/",
+  "meaning": [
+   "義務的な",
+   "必須の"
+  ],
+  "etymology": "mand（命じる）＋ -atory",
+  "root": "mand",
+  "synonyms": [
+   {
+    "w": "compulsory",
+    "m": "強制的な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "optional",
+    "m": "任意の"
+   }
+  ],
+  "related": [
+   {
+    "w": "mandate",
+    "m": "命令・委任"
+   },
+   {
+    "w": "command",
+    "m": "命令する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Seat belts are mandatory.",
+    "ja": "シートベルトは義務です。"
+   },
+   {
+    "en": "Attendance is mandatory.",
+    "ja": "出席は必須です。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "recommend",
+  "word": "recommend",
+  "pos": "動詞",
+  "ipa": "/ˌrɛkəˈmɛnd/",
+  "meaning": [
+   "勧める",
+   "推薦する"
+  ],
+  "etymology": "re-＋ com-（強く）＋ mand（ゆだねる）。「人にゆだねて勧める」",
+  "root": "mand",
+  "synonyms": [
+   {
+    "w": "suggest",
+    "m": "提案する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "discourage",
+    "m": "思いとどまらせる"
+   }
+  ],
+  "related": [
+   {
+    "w": "recommendation",
+    "m": "推薦"
+   },
+   {
+    "w": "commandment",
+    "m": "戒め"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I recommend this book.",
+    "ja": "この本をお勧めします。"
+   },
+   {
+    "en": "The doctor recommended rest.",
+    "ja": "医者は休養を勧めました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "segregate",
+  "word": "segregate",
+  "pos": "動詞",
+  "ipa": "/ˈsɛɡrɪˌɡeɪt/",
+  "meaning": [
+   "分離する",
+   "隔離する"
+  ],
+  "etymology": "se-（離して）＋ greg（群れ）＋ -ate。「群れから引き離す」",
+  "root": "greg",
+  "synonyms": [
+   {
+    "w": "separate",
+    "m": "分ける"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "integrate",
+    "m": "統合する"
+   }
+  ],
+  "related": [
+   {
+    "w": "segregation",
+    "m": "分離"
+   },
+   {
+    "w": "congregation",
+    "m": "会衆"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They segregate waste by type.",
+    "ja": "ごみを種類ごとに分けています。"
+   },
+   {
+    "en": "Schools were once segregated.",
+    "ja": "かつて学校は人種で分けられていました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "congregation（群れとして集まる）の反対"
+ },
+ {
+  "id": "aggregate",
+  "word": "aggregate",
+  "pos": "名詞",
+  "ipa": "/ˈæɡrɪɡɪt/",
+  "meaning": [
+   "集合体",
+   "総計"
+  ],
+  "etymology": "ag-（ad-、〜へ）＋ greg（群れ）＋ -ate。「群れに加える」",
+  "root": "greg",
+  "synonyms": [
+   {
+    "w": "total",
+    "m": "合計"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "gregarious",
+    "m": "群れたがる"
+   },
+   {
+    "w": "congregation",
+    "m": "会衆"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The aggregate of the scores was high.",
+    "ja": "得点の総計は高かったです。"
+   },
+   {
+    "en": "They won on aggregate.",
+    "ja": "彼らは合計点で勝ちました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "precarious",
+  "word": "precarious",
+  "pos": "形容詞",
+  "ipa": "/prɪˈkɛriəs/",
+  "meaning": [
+   "不安定な",
+   "危うい"
+  ],
+  "etymology": "ラテン語 precarius（祈って得た・相手の好意しだいの）← prec（祈る）",
+  "root": "prec",
+  "synonyms": [
+   {
+    "w": "unstable",
+    "m": "不安定な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "secure",
+    "m": "安全な"
+   }
+  ],
+  "related": [
+   {
+    "w": "prayer",
+    "m": "祈り"
+   },
+   {
+    "w": "deprecate",
+    "m": "非難する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cup was in a precarious position.",
+    "ja": "カップは落ちそうな位置にありました。"
+   },
+   {
+    "en": "Their situation is precarious.",
+    "ja": "彼らの状況は不安定です。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": "人の好意（祈り）しだいで頼りない"
+ },
+ {
+  "id": "pacify",
+  "word": "pacify",
+  "pos": "動詞",
+  "ipa": "/ˈpæsəˌfaɪ/",
+  "meaning": [
+   "なだめる",
+   "鎮める"
+  ],
+  "etymology": "pac（平和）＋ -ify（〜にする）。「平和にする」",
+  "root": "pac",
+  "synonyms": [
+   {
+    "w": "calm",
+    "m": "落ち着かせる"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "provoke",
+    "m": "挑発する"
+   }
+  ],
+  "related": [
+   {
+    "w": "peace",
+    "m": "平和"
+   },
+   {
+    "w": "pacific",
+    "m": "平和な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She tried to pacify the crying baby.",
+    "ja": "彼女は泣く赤ちゃんをなだめようとしました。"
+   },
+   {
+    "en": "The mayor pacified the angry crowd.",
+    "ja": "市長は怒った群衆を鎮めました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "potential",
+  "word": "potential",
+  "pos": "名詞",
+  "ipa": "/pəˈtɛnʃəl/",
+  "meaning": [
+   "可能性",
+   "潜在能力"
+  ],
+  "etymology": "pot（力がある）＋ -ential。「力を秘めた」",
+  "root": "pot",
+  "synonyms": [
+   {
+    "w": "possibility",
+    "m": "可能性"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "potent",
+    "m": "強力な"
+   },
+   {
+    "w": "omnipotent",
+    "m": "全能の"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has great potential.",
+    "ja": "彼女には大きな可能性があります。"
+   },
+   {
+    "en": "There is potential for growth.",
+    "ja": "成長の余地があります。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "heredity",
+  "word": "heredity",
+  "pos": "名詞",
+  "ipa": "/həˈrɛdəti/",
+  "meaning": [
+   "遺伝",
+   "遺伝形質"
+  ],
+  "etymology": "ラテン語 hereditas（相続）← hered（相続人）",
+  "root": "hered",
+  "synonyms": [
+   {
+    "w": "inheritance",
+    "m": "受け継ぐもの"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "hereditary",
+    "m": "遺伝性の"
+   },
+   {
+    "w": "inherit",
+    "m": "相続する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Eye color is determined by heredity.",
+    "ja": "目の色は遺伝で決まります。"
+   },
+   {
+    "en": "Heredity and environment both matter.",
+    "ja": "遺伝も環境もどちらも大切です。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "sacred",
+  "word": "sacred",
+  "pos": "形容詞",
+  "ipa": "/ˈseɪkrɪd/",
+  "meaning": [
+   "神聖な",
+   "聖なる"
+  ],
+  "etymology": "sacr（聖なる）＋ -ed。ラテン語 sacrare（聖別する）に由来",
+  "root": "sacr",
+  "synonyms": [
+   {
+    "w": "holy",
+    "m": "聖なる"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "profane",
+    "m": "俗悪な"
+   }
+  ],
+  "related": [
+   {
+    "w": "sacrifice",
+    "m": "いけにえ"
+   },
+   {
+    "w": "sacrament",
+    "m": "聖礼典"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The mountain is sacred to them.",
+    "ja": "その山は彼らにとって神聖です。"
+   },
+   {
+    "en": "Life is sacred.",
+    "ja": "命は神聖なものです。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "disrupt",
+  "word": "disrupt",
+  "pos": "動詞",
+  "ipa": "/dɪsˈrʌpt/",
+  "meaning": [
+   "混乱させる",
+   "中断させる"
+  ],
+  "etymology": "dis-（ばらばらに）＋ rupt（破る）",
+  "root": "rupt",
+  "synonyms": [
+   {
+    "w": "disturb",
+    "m": "妨げる"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "disruption",
+    "m": "混乱"
+   },
+   {
+    "w": "interrupt",
+    "m": "さえぎる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The snow disrupted traffic.",
+    "ja": "雪で交通が乱れました。"
+   },
+   {
+    "en": "Noise disrupted the class.",
+    "ja": "騒音で授業が妨げられました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "incident",
+  "word": "incident",
+  "pos": "名詞",
+  "ipa": "/ˈɪnsɪdənt/",
+  "meaning": [
+   "出来事",
+   "事件"
+  ],
+  "etymology": "in-（上に）＋ cid（落ちる）＋ -ent。「ふりかかったこと」",
+  "root": "cad/cid",
+  "synonyms": [
+   {
+    "w": "event",
+    "m": "出来事"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "accident",
+    "m": "事故"
+   },
+   {
+    "w": "coincide",
+    "m": "同時に起こる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a strange incident last night.",
+    "ja": "昨夜、奇妙な出来事がありました。"
+   },
+   {
+    "en": "The incident was reported to the police.",
+    "ja": "その事件は警察に届けられました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "decay",
+  "word": "decay",
+  "pos": "動詞",
+  "ipa": "/dɪˈkeɪ/",
+  "meaning": [
+   "腐る",
+   "衰える"
+  ],
+  "etymology": "de-（下へ）＋ cad（落ちる）。「落ちぶれる」",
+  "root": "cad/cid",
+  "synonyms": [
+   {
+    "w": "rot",
+    "m": "腐る"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "flourish",
+    "m": "栄える"
+   }
+  ],
+  "related": [
+   {
+    "w": "cadence",
+    "m": "抑揚"
+   },
+   {
+    "w": "accident",
+    "m": "事故"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sugar can make teeth decay.",
+    "ja": "砂糖は虫歯の原因になります。"
+   },
+   {
+    "en": "The old building is decaying.",
+    "ja": "その古い建物は朽ちつつあります。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "inherent",
+  "word": "inherent",
+  "pos": "形容詞",
+  "ipa": "/ɪnˈhɪrənt/",
+  "meaning": [
+   "固有の",
+   "本来備わった"
+  ],
+  "etymology": "in-（中に）＋ haer（くっつく）＋ -ent。「中にくっついている」",
+  "root": "haer",
+  "synonyms": [
+   {
+    "w": "intrinsic",
+    "m": "本質的な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "acquired",
+    "m": "後天的な"
+   }
+  ],
+  "related": [
+   {
+    "w": "adhere",
+    "m": "くっつく"
+   },
+   {
+    "w": "cohesion",
+    "m": "結束"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Risk is inherent in business.",
+    "ja": "リスクは商売に付きものです。"
+   },
+   {
+    "en": "She has an inherent sense of rhythm.",
+    "ja": "彼女は生まれつきリズム感があります。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "deprecate",
+  "word": "deprecate",
+  "pos": "動詞",
+  "ipa": "/ˈdɛprəˌkeɪt/",
+  "meaning": [
+   "非難する",
+   "軽視する"
+  ],
+  "etymology": "de-（離して）＋ prec（祈る）＋ -ate。「祈って（災いを）遠ざける」から「反対する」へ。成り立ちは要確認",
+  "root": "prec",
+  "synonyms": [
+   {
+    "w": "disapprove",
+    "m": "反対する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "praise",
+    "m": "ほめる"
+   }
+  ],
+  "related": [
+   {
+    "w": "prayer",
+    "m": "祈り"
+   },
+   {
+    "w": "precarious",
+    "m": "不安定な"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He deprecated the use of violence.",
+    "ja": "彼は暴力の使用を非難しました。"
+   },
+   {
+    "en": "She deprecated her own talent.",
+    "ja": "彼女は自分の才能を控えめに見せました。"
+   }
+  ],
+  "category": [
+   "exam"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "invent",
+  "word": "invent",
+  "pos": "動詞",
+  "ipa": "/ɪnˈvɛnt/",
+  "meaning": [
+   "発明する",
+   "作り上げる"
+  ],
+  "etymology": "in-（中に）＋ vent（来る）。「見つけ出す」から「発明する」へ",
+  "root": "ven",
+  "synonyms": [
+   {
+    "w": "devise",
+    "m": "考案する"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "invention",
+    "m": "発明"
+   },
+   {
+    "w": "event",
+    "m": "出来事"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Who invented the telephone?",
+    "ja": "電話を発明したのは誰ですか。"
+   },
+   {
+    "en": "He invented an excuse.",
+    "ja": "彼は言い訳をでっち上げました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "adventure",
+  "word": "adventure",
+  "pos": "名詞",
+  "ipa": "/ədˈvɛntʃər/",
+  "meaning": [
+   "冒険",
+   "思いがけない体験"
+  ],
+  "etymology": "ad-（〜へ）＋ vent（来る）＋ -ure。「向こうからやって来ること」",
+  "root": "ven",
+  "synonyms": [
+   {
+    "w": "expedition",
+    "m": "探検"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "venture",
+    "m": "冒険的事業"
+   },
+   {
+    "w": "prevent",
+    "m": "防ぐ"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The trip was a great adventure.",
+    "ja": "その旅は大冒険でした。"
+   },
+   {
+    "en": "She loves adventure stories.",
+    "ja": "彼女は冒険物語が大好きです。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "convention",
+  "word": "convention",
+  "pos": "名詞",
+  "ipa": "/kənˈvɛnʃən/",
+  "meaning": [
+   "慣習",
+   "大会",
+   "協定"
+  ],
+  "etymology": "con-（共に）＋ ven（来る）＋ -tion。「集まって取り決めたこと」",
+  "root": "ven",
+  "synonyms": [
+   {
+    "w": "custom",
+    "m": "慣習"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "convene",
+    "m": "招集する"
+   },
+   {
+    "w": "covenant",
+    "m": "契約"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They follow social conventions.",
+    "ja": "彼らは社会の慣習に従います。"
+   },
+   {
+    "en": "The convention is held every year.",
+    "ja": "その大会は毎年開かれます。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "expect",
+  "word": "expect",
+  "pos": "動詞",
+  "ipa": "/ɪkˈspɛkt/",
+  "meaning": [
+   "予期する",
+   "期待する"
+  ],
+  "etymology": "ex-（外に）＋ spect（見る）。「外を見渡して待つ」",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "anticipate",
+    "m": "見込む"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "expectation",
+    "m": "期待"
+   },
+   {
+    "w": "inspect",
+    "m": "検査する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I expect him to come soon.",
+    "ja": "彼がもうすぐ来ると思います。"
+   },
+   {
+    "en": "We didn't expect so many people.",
+    "ja": "こんなに大勢来るとは思いませんでした。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "aspect",
+  "word": "aspect",
+  "pos": "名詞",
+  "ipa": "/ˈæspɛkt/",
+  "meaning": [
+   "側面",
+   "様相"
+  ],
+  "etymology": "a-（ad-、〜へ）＋ spect（見る）。「見る方向」から「側面」へ",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "feature",
+    "m": "特徴"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "respect",
+    "m": "点・尊敬"
+   },
+   {
+    "w": "perspective",
+    "m": "視点"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Look at every aspect of the problem.",
+    "ja": "問題のあらゆる面を見てください。"
+   },
+   {
+    "en": "Cost is an important aspect.",
+    "ja": "費用は重要な側面です。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "spectator",
+  "word": "spectator",
+  "pos": "名詞",
+  "ipa": "/ˈspɛkteɪtər/",
+  "meaning": [
+   "観客",
+   "見物人"
+  ],
+  "etymology": "spect（見る）＋ -ator（〜する人）",
+  "root": "spec",
+  "synonyms": [
+   {
+    "w": "onlooker",
+    "m": "傍観者"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "player",
+    "m": "選手"
+   }
+  ],
+  "related": [
+   {
+    "w": "spectacle",
+    "m": "光景"
+   },
+   {
+    "w": "audience",
+    "m": "聴衆"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The spectators cheered loudly.",
+    "ja": "観客は大声で声援を送りました。"
+   },
+   {
+    "en": "Thousands of spectators came.",
+    "ja": "何千人もの観客が来ました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "permit",
+  "word": "permit",
+  "pos": "動詞",
+  "ipa": "/pərˈmɪt/",
+  "meaning": [
+   "許可する",
+   "許す"
+  ],
+  "etymology": "per-（通して）＋ mit（送る）。「通らせる」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "allow",
+    "m": "許す"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "forbid",
+    "m": "禁じる"
+   }
+  ],
+  "related": [
+   {
+    "w": "permission",
+    "m": "許可"
+   },
+   {
+    "w": "submit",
+    "m": "提出する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Smoking is not permitted here.",
+    "ja": "ここでは喫煙は許可されていません。"
+   },
+   {
+    "en": "Weather permitting, we will go.",
+    "ja": "天気が許せば行きます。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "mission",
+  "word": "mission",
+  "pos": "名詞",
+  "ipa": "/ˈmɪʃən/",
+  "meaning": [
+   "使命",
+   "任務",
+   "宣教"
+  ],
+  "etymology": "miss（送る）＋ -ion。「送り出されたこと」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "task",
+    "m": "任務"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "missionary",
+    "m": "宣教師"
+   },
+   {
+    "w": "transmit",
+    "m": "送信する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her mission is to help children.",
+    "ja": "彼女の使命は子どもたちを助けることです。"
+   },
+   {
+    "en": "The mission was a success.",
+    "ja": "その任務は成功しました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": "神に「送られた」のが宣教（mission）"
+ },
+ {
+  "id": "admit",
+  "word": "admit",
+  "pos": "動詞",
+  "ipa": "/ədˈmɪt/",
+  "meaning": [
+   "認める",
+   "入れる"
+  ],
+  "etymology": "ad-（〜へ）＋ mit（送る）。「中へ送り込む」から「受け入れる・認める」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "confess",
+    "m": "白状する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "deny",
+    "m": "否定する"
+   }
+  ],
+  "related": [
+   {
+    "w": "admission",
+    "m": "入場・承認"
+   },
+   {
+    "w": "omit",
+    "m": "省く"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He admitted his mistake.",
+    "ja": "彼は自分の間違いを認めました。"
+   },
+   {
+    "en": "Children are admitted free.",
+    "ja": "子どもは無料で入れます。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "commit",
+  "word": "commit",
+  "pos": "動詞",
+  "ipa": "/kəˈmɪt/",
+  "meaning": [
+   "犯す",
+   "ゆだねる",
+   "約束する"
+  ],
+  "etymology": "com-（共に・完全に）＋ mit（送る）。「ゆだね送る」",
+  "root": "mit/miss",
+  "synonyms": [
+   {
+    "w": "pledge",
+    "m": "誓う"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "commitment",
+    "m": "献身・約束"
+   },
+   {
+    "w": "committee",
+    "m": "委員会"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He committed a crime.",
+    "ja": "彼は罪を犯しました。"
+   },
+   {
+    "en": "I am committed to this project.",
+    "ja": "私はこの計画に全力を注いでいます。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "offer",
+  "word": "offer",
+  "pos": "動詞",
+  "ipa": "/ˈɔːfər/",
+  "meaning": [
+   "申し出る",
+   "提供する"
+  ],
+  "etymology": "of-（ob-、〜に向かって）＋ fer（運ぶ）。「差し出す」",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "provide",
+    "m": "提供する"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "refuse",
+    "m": "断る"
+   }
+  ],
+  "related": [
+   {
+    "w": "offering",
+    "m": "ささげ物"
+   },
+   {
+    "w": "transfer",
+    "m": "移す"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She offered me a cup of tea.",
+    "ja": "彼女は私にお茶を出してくれました。"
+   },
+   {
+    "en": "They offered a good price.",
+    "ja": "彼らは良い値段を提示しました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "differ",
+  "word": "differ",
+  "pos": "動詞",
+  "ipa": "/ˈdɪfər/",
+  "meaning": [
+   "異なる",
+   "意見が合わない"
+  ],
+  "etymology": "dif-（dis-、離れて）＋ fer（運ぶ）。「別々に運ばれる」",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "vary",
+    "m": "変わる"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "agree",
+    "m": "一致する"
+   }
+  ],
+  "related": [
+   {
+    "w": "different",
+    "m": "異なる"
+   },
+   {
+    "w": "difference",
+    "m": "違い"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our opinions differ.",
+    "ja": "私たちの意見は異なります。"
+   },
+   {
+    "en": "The two cities differ greatly.",
+    "ja": "その2つの都市は大きく違います。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "suffer",
+  "word": "suffer",
+  "pos": "動詞",
+  "ipa": "/ˈsʌfər/",
+  "meaning": [
+   "苦しむ",
+   "（被害を）受ける"
+  ],
+  "etymology": "suf-（sub-、下で）＋ fer（運ぶ）。「下で（重荷を）負う」",
+  "root": "fer",
+  "synonyms": [
+   {
+    "w": "endure",
+    "m": "耐える"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "enjoy",
+    "m": "楽しむ"
+   }
+  ],
+  "related": [
+   {
+    "w": "suffering",
+    "m": "苦しみ"
+   },
+   {
+    "w": "transfer",
+    "m": "移す"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many people suffer from hunger.",
+    "ja": "多くの人が飢えに苦しんでいます。"
+   },
+   {
+    "en": "The town suffered great damage.",
+    "ja": "町は大きな被害を受けました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "report",
+  "word": "report",
+  "pos": "名詞",
+  "ipa": "/rɪˈpɔːrt/",
+  "meaning": [
+   "報告",
+   "報道"
+  ],
+  "etymology": "re-（元へ）＋ port（運ぶ）。「持ち帰って伝える」",
+  "root": "port",
+  "synonyms": [
+   {
+    "w": "account",
+    "m": "説明"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "reporter",
+    "m": "記者"
+   },
+   {
+    "w": "transport",
+    "m": "輸送する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I wrote a report on climate change.",
+    "ja": "私は気候変動についてレポートを書きました。"
+   },
+   {
+    "en": "The news report was surprising.",
+    "ja": "そのニュース報道は意外でした。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "object",
+  "word": "object",
+  "pos": "名詞",
+  "ipa": "/ˈɑːbdʒɪkt/",
+  "meaning": [
+   "物",
+   "目的",
+   "対象"
+  ],
+  "etymology": "ob-（〜に向かって）＋ ject（投げる）。「目の前に投げ出されたもの」。動詞 /əbˈdʒɛkt/ は「反対する」",
+  "root": "ject",
+  "synonyms": [
+   {
+    "w": "thing",
+    "m": "物"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "objective",
+    "m": "目的・客観的な"
+   },
+   {
+    "w": "reject",
+    "m": "拒絶する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is that object on the table?",
+    "ja": "テーブルの上のあの物は何ですか。"
+   },
+   {
+    "en": "The object of the game is simple.",
+    "ja": "そのゲームの目的は単純です。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "動詞では強勢の位置が変わる（object /əbˈdʒɛkt/＝反対する）"
+ },
+ {
+  "id": "subject",
+  "word": "subject",
+  "pos": "名詞",
+  "ipa": "/ˈsʌbdʒɪkt/",
+  "meaning": [
+   "主題",
+   "教科",
+   "主語"
+  ],
+  "etymology": "sub-（下に）＋ ject（投げる）。「下に置かれたもの」",
+  "root": "ject",
+  "synonyms": [
+   {
+    "w": "topic",
+    "m": "話題"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "subjective",
+    "m": "主観的な"
+   },
+   {
+    "w": "project",
+    "m": "計画"
+   }
+  ],
+  "examples": [
+   {
+    "en": "My favorite subject is English.",
+    "ja": "私の好きな教科は英語です。"
+   },
+   {
+    "en": "Let's change the subject.",
+    "ja": "話題を変えましょう。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "educate",
+  "word": "educate",
+  "pos": "動詞",
+  "ipa": "/ˈɛdʒəˌkeɪt/",
+  "meaning": [
+   "教育する",
+   "育てる"
+  ],
+  "etymology": "e-（外に）＋ duc（導く）＋ -ate。「能力を引き出す」",
+  "root": "duc",
+  "synonyms": [
+   {
+    "w": "teach",
+    "m": "教える"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "education",
+    "m": "教育"
+   },
+   {
+    "w": "produce",
+    "m": "生産する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Parents educate their children at home.",
+    "ja": "親は家庭で子どもを教育します。"
+   },
+   {
+    "en": "She was educated in Tokyo.",
+    "ja": "彼女は東京で教育を受けました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "内にある力を外へ導き出す"
+ },
+ {
+  "id": "instruct",
+  "word": "instruct",
+  "pos": "動詞",
+  "ipa": "/ɪnˈstrʌkt/",
+  "meaning": [
+   "教える",
+   "指示する"
+  ],
+  "etymology": "in-（中に）＋ struct（積み上げる）。「知識を積み上げる」",
+  "root": "struct",
+  "synonyms": [
+   {
+    "w": "teach",
+    "m": "教える"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "instruction",
+    "m": "指示・教え"
+   },
+   {
+    "w": "structure",
+    "m": "構造"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher instructed us to be quiet.",
+    "ja": "先生は私たちに静かにするよう指示しました。"
+   },
+   {
+    "en": "He instructs students in math.",
+    "ja": "彼は生徒に数学を教えています。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "destroy",
+  "word": "destroy",
+  "pos": "動詞",
+  "ipa": "/dɪˈstrɔɪ/",
+  "meaning": [
+   "破壊する",
+   "滅ぼす"
+  ],
+  "etymology": "de-（反対に）＋ stru（struct、積み上げる）。「積み上げたものを崩す」",
+  "root": "struct",
+  "synonyms": [
+   {
+    "w": "ruin",
+    "m": "台無しにする"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "construct",
+    "m": "建設する"
+   }
+  ],
+  "related": [
+   {
+    "w": "destruction",
+    "m": "破壊"
+   },
+   {
+    "w": "construct",
+    "m": "建設する"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The storm destroyed many houses.",
+    "ja": "嵐で多くの家が壊れました。"
+   },
+   {
+    "en": "Don't destroy the evidence.",
+    "ja": "証拠を壊してはいけません。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": "construct の反対"
+ },
+ {
+  "id": "access",
+  "word": "access",
+  "pos": "名詞",
+  "ipa": "/ˈæksɛs/",
+  "meaning": [
+   "接近",
+   "利用する権利",
+   "入口"
+  ],
+  "etymology": "ac-（ad-、〜へ）＋ cess（行く）。「近づくこと」",
+  "root": "ced/cess",
+  "synonyms": [
+   {
+    "w": "entry",
+    "m": "入ること"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "accessible",
+    "m": "利用しやすい"
+   },
+   {
+    "w": "success",
+    "m": "成功"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have access to the internet.",
+    "ja": "私はインターネットを利用できます。"
+   },
+   {
+    "en": "Access to the library is free.",
+    "ja": "図書館の利用は無料です。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "process",
+  "word": "process",
+  "pos": "名詞",
+  "ipa": "/ˈprɑːsɛs/",
+  "meaning": [
+   "過程",
+   "手順",
+   "処理する"
+  ],
+  "etymology": "pro-（前へ）＋ cess（行く）。「前へ進むこと」",
+  "root": "ced/cess",
+  "synonyms": [
+   {
+    "w": "procedure",
+    "m": "手続き"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "proceed",
+    "m": "進む"
+   },
+   {
+    "w": "procession",
+    "m": "行列"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Learning is a long process.",
+    "ja": "学ぶことは長い過程です。"
+   },
+   {
+    "en": "The process takes three steps.",
+    "ja": "その手順は3段階あります。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "aggressive",
+  "word": "aggressive",
+  "pos": "形容詞",
+  "ipa": "/əˈɡrɛsɪv/",
+  "meaning": [
+   "攻撃的な",
+   "積極的な"
+  ],
+  "etymology": "ag-（ad-、〜へ）＋ gress（歩む）＋ -ive。「相手に向かって踏み出す」",
+  "root": "gress/grad",
+  "synonyms": [
+   {
+    "w": "hostile",
+    "m": "敵意のある"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "gentle",
+    "m": "穏やかな"
+   }
+  ],
+  "related": [
+   {
+    "w": "aggression",
+    "m": "攻撃"
+   },
+   {
+    "w": "progress",
+    "m": "進歩"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog looked aggressive.",
+    "ja": "その犬は攻撃的に見えました。"
+   },
+   {
+    "en": "He is an aggressive player.",
+    "ja": "彼は積極果敢な選手です。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 2,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "corrupt",
+  "word": "corrupt",
+  "pos": "形容詞",
+  "ipa": "/kəˈrʌpt/",
+  "meaning": [
+   "腐敗した",
+   "堕落した"
+  ],
+  "etymology": "cor-（com-、完全に）＋ rupt（破る）。「すっかり壊れた」",
+  "root": "rupt",
+  "synonyms": [
+   {
+    "w": "dishonest",
+    "m": "不正な"
+   }
+  ],
+  "antonyms": [
+   {
+    "w": "honest",
+    "m": "誠実な"
+   }
+  ],
+  "related": [
+   {
+    "w": "corruption",
+    "m": "腐敗"
+   },
+   {
+    "w": "interrupt",
+    "m": "さえぎる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The official was corrupt.",
+    "ja": "その役人は腐敗していました。"
+   },
+   {
+    "en": "Power can corrupt people.",
+    "ja": "権力は人を堕落させることがあります。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "accident",
+  "word": "accident",
+  "pos": "名詞",
+  "ipa": "/ˈæksɪdənt/",
+  "meaning": [
+   "事故",
+   "偶然"
+  ],
+  "etymology": "ac-（ad-、〜へ）＋ cid（落ちる）＋ -ent。「ふりかかってくること」",
+  "root": "cad/cid",
+  "synonyms": [
+   {
+    "w": "mishap",
+    "m": "災難"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "incident",
+    "m": "出来事"
+   },
+   {
+    "w": "coincide",
+    "m": "同時に起こる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a traffic accident.",
+    "ja": "交通事故がありました。"
+   },
+   {
+    "en": "We met by accident.",
+    "ja": "私たちは偶然出会いました。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 1,
+  "verified": false,
+  "note": ""
+ },
+ {
+  "id": "aspire",
+  "word": "aspire",
+  "pos": "動詞",
+  "ipa": "/əˈspaɪər/",
+  "meaning": [
+   "切望する",
+   "志す"
+  ],
+  "etymology": "a-（ad-、〜へ）＋ spir（息）。「〜に向かって息をする」から「熱望する」",
+  "root": "spir",
+  "synonyms": [
+   {
+    "w": "aim",
+    "m": "目指す"
+   }
+  ],
+  "antonyms": [],
+  "related": [
+   {
+    "w": "aspiration",
+    "m": "大志"
+   },
+   {
+    "w": "inspire",
+    "m": "奮い立たせる"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He aspires to be a doctor.",
+    "ja": "彼は医者になりたいと志しています。"
+   },
+   {
+    "en": "Many young people aspire to fame.",
+    "ja": "多くの若者が名声を望んでいます。"
+   }
+  ],
+  "category": [
+   "highschool"
+  ],
+  "level": 3,
+  "verified": false,
+  "note": ""
+ }
+]

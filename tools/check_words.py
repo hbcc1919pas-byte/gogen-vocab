@@ -1,8 +1,10 @@
 """単語データの検査スクリプト。
 
-検査項目: 必須項目、型、id重複、root表記ゆれ、KJV出典の有無、packs.jsonとの語数一致。
+検査項目: 必須項目、型、id重複、root表記ゆれ、KJV出典の有無、root の意味(roots.json)、
+          packs.json との語数一致、パックごとの4分野の比率。
 使い方: python tools/check_words.py
 終了コード: エラーがあれば 1、なければ 0（警告のみなら 0）。
+import_inbox.py からも validate_words() を使う。
 """
 import json
 import re
@@ -11,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-CATEGORIES = {"bible", "highschool", "exam", "daily"}
+CATEGORIES = ["bible", "highschool", "exam", "daily"]
 REQUIRED = ["id", "word", "pos", "ipa", "meaning", "etymology", "root", "synonyms",
             "antonyms", "related", "examples", "category", "level", "verified"]
 ROOT_RE = re.compile(r"^[a-z]+(/[a-z]+)*$")
@@ -20,6 +22,72 @@ ROOT_RE = re.compile(r"^[a-z]+(/[a-z]+)*$")
 def load_json(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def validate_words(words, label, seen_ids, errors, warns):
+    """words を検査し、errors / warns に追記する。seen_ids（id→出所）も更新する。"""
+    cats = {}
+    for w in words:
+        wid = w.get("id", "?")
+        for k in REQUIRED:
+            if k not in w:
+                errors.append(f"{label} {wid}: 必須項目 {k} がありません")
+        if wid in seen_ids:
+            errors.append(f"{label} {wid}: id が重複しています（{seen_ids[wid]} と {label}）")
+        seen_ids[wid] = label
+        if not isinstance(w.get("meaning"), list) or not w.get("meaning"):
+            errors.append(f"{label} {wid}: meaning は空でない配列にしてください")
+        if not isinstance(w.get("level"), int) or w.get("level") not in (1, 2, 3):
+            errors.append(f"{label} {wid}: level は 1〜3 の整数です")
+        if not isinstance(w.get("verified"), bool):
+            errors.append(f"{label} {wid}: verified は true/false です")
+        ipa = w.get("ipa", "")
+        if not (isinstance(ipa, str) and ipa.startswith("/") and ipa.endswith("/")):
+            errors.append(f"{label} {wid}: ipa は /…/ の形式にしてください: {ipa}")
+        for lst in ("synonyms", "antonyms", "related"):
+            for x in w.get(lst, []) or []:
+                if not (isinstance(x, dict) and x.get("w") and x.get("m")):
+                    errors.append(f"{label} {wid}: {lst} は {{w, m}} の形にしてください")
+                    break
+        wcats = w.get("category", [])
+        if not isinstance(wcats, list) or not wcats:
+            errors.append(f"{label} {wid}: category は空でない配列にしてください")
+            wcats = []
+        for c in wcats:
+            if c not in CATEGORIES:
+                errors.append(f"{label} {wid}: 不明な category {c}")
+            cats[c] = cats.get(c, 0) + 1
+        r = w.get("root")
+        if r is not None and not (isinstance(r, str) and ROOT_RE.match(r)):
+            errors.append(f"{label} {wid}: root の表記が不正です（小文字とスラッシュのみ）: {r}")
+        ex = w.get("examples", [])
+        if not 2 <= len(ex) <= 3:
+            errors.append(f"{label} {wid}: 例文は2〜3文にしてください（{len(ex)}文）")
+        kjv_n = 0
+        for e in ex:
+            if not e.get("en") or not e.get("ja"):
+                errors.append(f"{label} {wid}: 例文に en/ja がありません")
+            if e.get("kjv"):
+                kjv_n += 1
+                if not e.get("ref"):
+                    errors.append(f"{label} {wid}: KJV例文に出典 ref がありません")
+        if "bible" in wcats and kjv_n == 0:
+            errors.append(f"{label} {wid}: 聖書語にKJV例文がありません")
+        if "bible" not in wcats and kjv_n:
+            warns.append(f"{label} {wid}: 聖書語でないのにKJV例文があります")
+    return cats
+
+
+def root_variants(all_words, errors):
+    """root の表記ゆれ（例: 'clud/clus' と 'clus/clud'）を検出する。"""
+    groups = {}
+    for w in all_words:
+        r = w.get("root")
+        if r:
+            groups.setdefault("/".join(sorted(r.split("/"))), set()).add(r)
+    for forms in groups.values():
+        if len(forms) > 1:
+            errors.append(f"root の表記ゆれ: {sorted(forms)}")
 
 
 def main():
@@ -35,65 +103,16 @@ def main():
         words = load_json(path)
         if len(words) != p.get("count"):
             errors.append(f"{p['id']}: packs.json の語数 {p.get('count')} と実際の語数 {len(words)} が違います")
-        cats = {}
-        for w in words:
-            wid = w.get("id", "?")
-            for k in REQUIRED:
-                if k not in w:
-                    errors.append(f"{wid}: 必須項目 {k} がありません")
-            if wid in seen_ids:
-                errors.append(f"{wid}: id が重複しています（{seen_ids[wid]} と {p['id']}）")
-            seen_ids[wid] = p["id"]
-            if not isinstance(w.get("meaning"), list) or not w.get("meaning"):
-                errors.append(f"{wid}: meaning は空でない配列にしてください")
-            if not isinstance(w.get("level"), int) or w.get("level") not in (1, 2, 3):
-                errors.append(f"{wid}: level は 1〜3 の整数です")
-            if not isinstance(w.get("verified"), bool):
-                errors.append(f"{wid}: verified は true/false です")
-            ipa = w.get("ipa", "")
-            if not (ipa.startswith("/") and ipa.endswith("/")):
-                errors.append(f"{wid}: ipa は /…/ の形式にしてください: {ipa}")
-            for c in w.get("category", []):
-                if c not in CATEGORIES:
-                    errors.append(f"{wid}: 不明な category {c}")
-                cats[c] = cats.get(c, 0) + 1
-            if not w.get("category"):
-                errors.append(f"{wid}: category が空です")
-            r = w.get("root")
-            if r is not None and not ROOT_RE.match(r):
-                errors.append(f"{wid}: root の表記が不正です（小文字とスラッシュのみ）: {r}")
-            ex = w.get("examples", [])
-            if not 2 <= len(ex) <= 3:
-                errors.append(f"{wid}: 例文は2〜3文にしてください（{len(ex)}文）")
-            kjv_n = 0
-            for e in ex:
-                if not e.get("en") or not e.get("ja"):
-                    errors.append(f"{wid}: 例文に en/ja がありません")
-                if e.get("kjv"):
-                    kjv_n += 1
-                    if not e.get("ref"):
-                        errors.append(f"{wid}: KJV例文に出典 ref がありません")
-            if "bible" in w.get("category", []) and kjv_n == 0:
-                errors.append(f"{wid}: 聖書語にKJV例文がありません")
-            if "bible" not in w.get("category", []) and kjv_n:
-                warns.append(f"{wid}: 聖書語でないのにKJV例文があります")
-            all_words.append(w)
+        cats = validate_words(words, p["id"], seen_ids, errors, warns)
+        if len(set(cats.get(c, 0) for c in CATEGORIES)) > 1:
+            warns.append(f"{p['id']}: 4分野の語数が同数ではありません {cats}")
+        all_words.extend(words)
         print(f"{p['id']}: {len(words)}語 分野別 {cats}")
-    # root の表記ゆれ（同じ綴りの別表記、例: 'clud/clus' と 'clus/clud'）
-    groups = {}
-    for w in all_words:
-        r = w.get("root")
-        if r:
-            key = "/".join(sorted(r.split("/")))
-            groups.setdefault(key, set()).add(r)
-    for key, forms in groups.items():
-        if len(forms) > 1:
-            errors.append(f"root の表記ゆれ: {sorted(forms)}")
+    root_variants(all_words, errors)
     roots = {}
     for w in all_words:
         if w.get("root"):
             roots.setdefault(w["root"], []).append(w["id"])
-    # roots.json（語根の意味）との突き合わせ
     rpath = DATA / "roots.json"
     if rpath.exists():
         meanings = load_json(rpath)

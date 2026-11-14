@@ -76,3 +76,15 @@ textarea{width:100%;min-height:80px;font-size:14px;border-radius:10px;border:1.5
 .grade .g3{background:#b26a00;color:#fff}
 .grade .g4{background:var(--main)}
 .grade .g5{background:var(--ok);color:#fff}
+.prow{margin:8px 0}
+.plabel{display:flex;justify-content:space-between;gap:8px;font-size:14px;flex-wrap:wrap}
+.plabel span:first-child{font-weight:700;font-size:16px}
+.plabel span:last-child{color:var(--sub)}
+.bar{display:flex;height:14px;border-radius:7px;background:var(--line);overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%}
+.bar .k,.legend .k{background:var(--ok)}
+.bar .w,.legend .w{background:var(--ng)}
+.legend{font-size:13px;color:var(--sub);margin:4px 0 8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 3px 0 8px;vertical-align:-1px}
+.legend .u{background:var(--line)}
+.sub2{display:block;margin:14px 0 4px;color:var(--sub);font-size:14px}

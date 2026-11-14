@@ -5,6 +5,12 @@
    "name": "パック1",
    "file": "packs/pack001.json",
    "count": 100
+  },
+  {
+   "id": "pack002",
+   "name": "パック2",
+   "file": "packs/pack002.json",
+   "count": 100
   }
  ]
 }
